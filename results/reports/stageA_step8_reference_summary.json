@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "case_id": "A001_naca0012_Re1000_a0",
+      "status": "converged",
+      "wall_s": 180.4,
+      "iters": 415,
+      "rms_p": -10.00660287,
+      "CL": 0.0002282389277,
+      "CD": 0.1196098512,
+      "CL_indep": 0.0002281629308925757,
+      "CD_indep": 0.11943582623517168,
+      "cells": 46496,
+      "minSICN": 0.3210816268042559
+    },
+    {
+      "case_id": "A002_naca0012_Re1000_a4",
+      "status": "converged",
+      "wall_s": 180.8,
+      "iters": 438,
+      "rms_p": -10.00390793,
+      "CL": 0.2080244002,
+      "CD": 0.1245197413,
+      "CL_indep": 0.2078867921085193,
+      "CD_indep": 0.12434251973383267,
+      "cells": 46602,
+      "minSICN": 0.3210816330404745
+    }
+  ],
+  "note": "Stage A pipeline verification only. Not publication ground truth. Validation reference: Kurtulus 2015 (IJMAV 7(3):301-326) reports Cd ~ 0.12 at alpha=0 and lift slope ~ pi per rad for NACA0012 at Re=1000 (Fluent, far field 15c)."
+}

@@ -1,0 +1,138 @@
+{
+ "note": "exploratory diagnosis, not a protocol step; J gradient = j_weights . (CL, CD) MGLEVEL-0 adjoint gradients (adj_mg0L_*); reference = phase-0 Richardson FD for CST, Richardson of central FD at h 0.025/0.0125 deg for alpha (fd_aoa_*)",
+ "rows": [
+  {
+   "design": 0,
+   "dv": "au0",
+   "adj_mg0L": -204.92609050240478,
+   "adj_phase0_mg3": -226.08450921647855,
+   "ref": -204.36039289375458,
+   "rel_mg0L": 0.002768137214065247,
+   "share_of_max": 1.0
+  },
+  {
+   "design": 0,
+   "dv": "au3",
+   "adj_mg0L": 103.12701683068983,
+   "adj_phase0_mg3": 104.99283399015194,
+   "ref": 102.18508735691547,
+   "rel_mg0L": 0.009217876092666524,
+   "share_of_max": 0.5000239327688155
+  },
+  {
+   "design": 0,
+   "dv": "al2",
+   "adj_mg0L": 1.3023090565447504,
+   "adj_phase0_mg3": 5.421945954419555,
+   "ref": 1.2967709682541546,
+   "rel_mg0L": 0.004270675721597705,
+   "share_of_max": 0.006345510252215731
+  },
+  {
+   "design": 0,
+   "dv": "aoa_deg",
+   "adj_mg0L": -12.874681813571287,
+   "adj_phase0_mg3": -13.469515819570237,
+   "ref": -12.887193239754373,
+   "rel_mg0L": 0.0009708418233762491,
+   "share_of_max": 0.06306111011664735
+  },
+  {
+   "design": 1,
+   "dv": "au0",
+   "adj_mg0L": -85.19787801674349,
+   "adj_phase0_mg3": -367.4161174150212,
+   "ref": -84.75582206088146,
+   "rel_mg0L": 0.0052156411809031284,
+   "share_of_max": 0.4291391486616318
+  },
+  {
+   "design": 1,
+   "dv": "au3",
+   "adj_mg0L": 197.93311727301176,
+   "adj_phase0_mg3": 203.7218454136458,
+   "ref": 197.50195787359834,
+   "rel_mg0L": 0.002183063925317439,
+   "share_of_max": 1.0
+  },
+  {
+   "design": 1,
+   "dv": "al2",
+   "adj_mg0L": 30.08942470235215,
+   "adj_phase0_mg3": 44.060272909745116,
+   "ref": 30.08940508397746,
+   "rel_mg0L": 6.520027443333545e-07,
+   "share_of_max": 0.15234990785881092
+  },
+  {
+   "design": 1,
+   "dv": "aoa_deg",
+   "adj_mg0L": -2.0238763410482647,
+   "adj_phase0_mg3": -9.485374296762481,
+   "ref": -2.040618762891635,
+   "rel_mg0L": 0.008204580957417846,
+   "share_of_max": 0.01033214447523419
+  }
+ ],
+ "alpha_fd_central": {
+  "0": {
+   "0.025": {
+    "CL": {
+     "aoa_deg": 0.16686907600000023
+    },
+    "CD": {
+     "aoa_deg": 0.016373078400000046
+    }
+   },
+   "0.0125": {
+    "CL": {
+     "aoa_deg": 0.16541070800000224
+    },
+    "CD": {
+     "aoa_deg": 0.016128387599999988
+    }
+   }
+  },
+  "1": {
+   "0.025": {
+    "CL": {
+     "aoa_deg": 0.19045910800000065
+    },
+    "CD": {
+     "aoa_deg": 0.002981756765999999
+    }
+   },
+   "0.0125": {
+    "CL": {
+     "aoa_deg": 0.1908926639999997
+    },
+    "CD": {
+     "aoa_deg": 0.002999609583999997
+    }
+   }
+  }
+ },
+ "mg0L_adjoint": {
+  "0_CL": {
+   "iterations": 3975,
+   "final_rms_adj_p": -10.01092606,
+   "wall_s": 458.6
+  },
+  "0_CD": {
+   "iterations": 3561,
+   "final_rms_adj_p": -10.0058714,
+   "wall_s": 422.1
+  },
+  "1_CL": {
+   "iterations": 3885,
+   "final_rms_adj_p": -10.00039752,
+   "wall_s": 441.4
+  },
+  "1_CD": {
+   "iterations": 3554,
+   "final_rms_adj_p": -10.00420008,
+   "wall_s": 382.3
+  }
+ },
+ "gate_b_pass_mg0L_smallalpha": true
+}

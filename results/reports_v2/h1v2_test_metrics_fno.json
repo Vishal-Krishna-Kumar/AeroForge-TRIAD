@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "train_hash": "f188a51786ab12846ff11179fa5dafb07265f34155dcf19c820504e58e03949c",
+  "test_hash": "22d1c58df1baa8eaae00adf752934608127f6bf1cded7e966009fed981a0b2ee",
+  "cal_hash": "73fd37b83212a8985a883b28c513ba28a5ef73aa74fbdc53ffcb52cd20c79681",
+  "n_fit": 245,
+  "n_val": 35,
+  "n_test": 127,
+  "args": {
+   "model": "fno",
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "epochs": 500,
+   "w_sobolev": 0.0,
+   "snapshot_seed": 0,
+   "frames": 200,
+   "out": "checkpoints/v2/fno"
+  },
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "load_s": 7.5
+ },
+ "members": [
+  {
+   "median_rel_err_CL": 0.017839461380993082,
+   "median_rel_err_CD": 0.0007826702846440708,
+   "median_rel_err_LD": 0.01853560755626255,
+   "median_rel_grad_err_LD": 0.12743764577003155,
+   "frac_cos_below_0.98": 0.031496062992125984,
+   "median_cos": 0.9982200593464478,
+   "n_grad_points": 127
+  },
+  {
+   "median_rel_err_CL": 0.014169482945859384,
+   "median_rel_err_CD": 0.0007789045693956438,
+   "median_rel_err_LD": 0.014359390006116515,
+   "median_rel_grad_err_LD": 0.08346332414586555,
+   "frac_cos_below_0.98": 0.015748031496062992,
+   "median_cos": 0.9988913853252335,
+   "n_grad_points": 127
+  },
+  {
+   "median_rel_err_CL": 0.018963091397664045,
+   "median_rel_err_CD": 0.0006992319945158379,
+   "median_rel_err_LD": 0.018603569223173827,
+   "median_rel_grad_err_LD": 0.10220393570234208,
+   "frac_cos_below_0.98": 0.031496062992125984,
+   "median_cos": 0.9986605220430403,
+   "n_grad_points": 127
+  },
+  {
+   "median_rel_err_CL": 0.01975514365886482,
+   "median_rel_err_CD": 0.0006646865857147479,
+   "median_rel_err_LD": 0.019709899333452695,
+   "median_rel_grad_err_LD": 0.12634529457916907,
+   "frac_cos_below_0.98": 0.03937007874015748,
+   "median_cos": 0.9981894428482454,
+   "n_grad_points": 127
+  },
+  {
+   "median_rel_err_CL": 0.019100580562878434,
+   "median_rel_err_CD": 0.0007820411335091694,
+   "median_rel_err_LD": 0.018984547500248476,
+   "median_rel_grad_err_LD": 0.09927804263299153,
+   "frac_cos_below_0.98": 0.023622047244094488,
+   "median_cos": 0.9983589254945942,
+   "n_grad_points": 127
+  }
+ ],
+ "ensemble": {
+  "median_rel_err_CL": 0.0157356468968749,
+  "median_rel_err_CD": 0.000671635326191152,
+  "median_rel_err_LD": 0.016515332489536218,
+  "median_rel_grad_err_LD": 0.09048236292780988,
+  "frac_cos_below_0.98": 0.015748031496062992,
+  "median_cos": 0.9989659012400951,
+  "n_grad_points": 127
+ },
+ "H1_supported": false,
+ "H1_falsified": true
+}

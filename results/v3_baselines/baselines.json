@@ -1,0 +1,558 @@
+{
+ "n_iid_cal": 128,
+ "T": 12,
+ "designs": {
+  "primary_20x20": {
+   "n_cal_runs": 20,
+   "n_test_runs": 20,
+   "weighted_classifier_train_acc": 0.6983695652173914,
+   "weighted_median_ESS": 95.51042162280608,
+   "alphas": {
+    "0.1": {
+     "run-max (Thm 1, reference)": {
+      "whole_run": 0.95,
+      "whole_run_CI95": [
+       0.7512672372279722,
+       0.9987349105020502
+      ],
+      "per_iterate": 0.9958333333333333,
+      "certified_fraction": 0.24583333333333332,
+      "median_radius": 4.899071939088388
+     },
+     "i.i.d. split conformal (reference)": {
+      "whole_run": 0.65,
+      "whole_run_CI95": [
+       0.40781146546717184,
+       0.8460907952154588
+      ],
+      "per_iterate": 0.9333333333333333,
+      "certified_fraction": 0.6083333333333333,
+      "median_radius": 2.3091005525238595
+     },
+     "B1a Gaussian isotropic, level alpha": {
+      "whole_run": 0.05,
+      "whole_run_CI95": [
+       0.0012650894979498038,
+       0.24873276277202777
+      ],
+      "per_iterate": 0.5583333333333333,
+      "certified_fraction": 0.8208333333333333,
+      "median_radius": 1.2345017464899495
+     },
+     "B1a Gaussian isotropic, Bonferroni alpha/T": {
+      "whole_run": 0.1,
+      "whole_run_CI95": [
+       0.012348527170294808,
+       0.31698271401908235
+      ],
+      "per_iterate": 0.7,
+      "certified_fraction": 0.7833333333333333,
+      "median_radius": 1.4742995959110692
+     },
+     "B1b Gaussian ensemble-cov, level alpha": {
+      "whole_run": 0.1,
+      "whole_run_CI95": [
+       0.012348527170294808,
+       0.31698271401908235
+      ],
+      "per_iterate": 0.725,
+      "certified_fraction": 0.7625,
+      "median_radius": 1.5159350078672968
+     },
+     "B1b Gaussian ensemble-cov, Bonferroni alpha/T": {
+      "whole_run": 0.6,
+      "whole_run_CI95": [
+       0.36054258730748967,
+       0.8088099392746928
+      ],
+      "per_iterate": 0.925,
+      "certified_fraction": 0.5916666666666667,
+      "median_radius": 2.297394974420012
+     },
+     "B2a per-step conformal, Bonferroni alpha/T": {
+      "whole_run": 1.0,
+      "whole_run_CI95": [
+       0.8315665290169146,
+       1.0
+      ],
+      "per_iterate": 1.0,
+      "certified_fraction": 0.0,
+      "median_radius": Infinity,
+      "finite": false,
+      "min_cal_runs_for_finite": 119
+     },
+     "B2b i.i.d. conformal, Bonferroni alpha/T": {
+      "whole_run": 0.95,
+      "whole_run_CI95": [
+       0.7512672372279722,
+       0.9987349105020502
+      ],
+      "per_iterate": 0.9958333333333333,
+      "certified_fraction": 0.2125,
+      "median_radius": 5.84339007101827
+     },
+     "B2c pooled trajectory points, Bonferroni alpha/T": {
+      "whole_run": 0.95,
+      "whole_run_CI95": [
+       0.7512672372279722,
+       0.9987349105020502
+      ],
+      "per_iterate": 0.9958333333333333,
+      "certified_fraction": 0.20416666666666666,
+      "median_radius": 5.94463831078339
+     },
+     "B3 weighted conformal, level alpha": {
+      "whole_run": 0.55,
+      "whole_run_CI95": [
+       0.31527813304054847,
+       0.7694221032240758
+      ],
+      "per_iterate": 0.9083333333333334,
+      "certified_fraction": 0.6541666666666667,
+      "median_radius": 2.1519323934426593
+     },
+     "B3 weighted conformal, Bonferroni alpha/T": {
+      "whole_run": 1.0,
+      "whole_run_CI95": [
+       0.8315665290169146,
+       1.0
+      ],
+      "per_iterate": 1.0,
+      "certified_fraction": 0.2,
+      "median_radius": Infinity
+     },
+     "B4 ACI gamma=0.005": {
+      "whole_run": 0.6,
+      "whole_run_CI95": [
+       0.36054258730748967,
+       0.8088099392746928
+      ],
+      "per_iterate": 0.9291666666666668,
+      "certified_fraction": 0.625,
+      "median_radius": 2.2239852633787915
+     },
+     "B4 ACI gamma=0.05": {
+      "whole_run": 0.55,
+      "whole_run_CI95": [
+       0.31527813304054847,
+       0.7694221032240758
+      ],
+      "per_iterate": 0.9375,
+      "certified_fraction": 0.625,
+      "median_radius": 2.1972292141261125
+     }
+    },
+    "0.2": {
+     "run-max (Thm 1, reference)": {
+      "whole_run": 0.7,
+      "whole_run_CI95": [
+       0.45721081772371086,
+       0.8810684095942722
+      ],
+      "per_iterate": 0.975,
+      "certified_fraction": 0.425,
+      "median_radius": 3.22952522500467
+     },
+     "i.i.d. split conformal (reference)": {
+      "whole_run": 0.35,
+      "whole_run_CI95": [
+       0.15390920478454118,
+       0.5921885345328282
+      ],
+      "per_iterate": 0.8791666666666667,
+      "certified_fraction": 0.6833333333333333,
+      "median_radius": 1.9661552495660988
+     },
+     "B1a Gaussian isotropic, level alpha": {
+      "whole_run": 0.05,
+      "whole_run_CI95": [
+       0.0012650894979498038,
+       0.24873276277202777
+      ],
+      "per_iterate": 0.5000000000000001,
+      "certified_fraction": 0.8291666666666667,
+      "median_radius": 1.1430323038117345
+     },
+     "B1a Gaussian isotropic, Bonferroni alpha/T": {
+      "whole_run": 0.1,
+      "whole_run_CI95": [
+       0.012348527170294808,
+       0.31698271401908235
+      ],
+      "per_iterate": 0.6833333333333333,
+      "certified_fraction": 0.7916666666666666,
+      "median_radius": 1.4159578456985293
+     },
+     "B1b Gaussian ensemble-cov, level alpha": {
+      "whole_run": 0.05,
+      "whole_run_CI95": [
+       0.0012650894979498038,
+       0.24873276277202777
+      ],
+      "per_iterate": 0.5833333333333334,
+      "certified_fraction": 0.8208333333333333,
+      "median_radius": 1.2504855420966303
+     },
+     "B1b Gaussian ensemble-cov, Bonferroni alpha/T": {
+      "whole_run": 0.4,
+      "whole_run_CI95": [
+       0.1911900607253072,
+       0.6394574126925103
+      ],
+      "per_iterate": 0.8916666666666666,
+      "certified_fraction": 0.6458333333333334,
+      "median_radius": 2.122991223785205
+     },
+     "B2a per-step conformal, Bonferroni alpha/T": {
+      "whole_run": 1.0,
+      "whole_run_CI95": [
+       0.8315665290169146,
+       1.0
+      ],
+      "per_iterate": 1.0,
+      "certified_fraction": 0.0,
+      "median_radius": Infinity,
+      "finite": false,
+      "min_cal_runs_for_finite": 59
+     },
+     "B2b i.i.d. conformal, Bonferroni alpha/T": {
+      "whole_run": 0.9,
+      "whole_run_CI95": [
+       0.6830172859809177,
+       0.9876514728297052
+      ],
+      "per_iterate": 0.9916666666666666,
+      "certified_fraction": 0.29583333333333334,
+      "median_radius": 4.367473903033893
+     },
+     "B2c pooled trajectory points, Bonferroni alpha/T": {
+      "whole_run": 0.95,
+      "whole_run_CI95": [
+       0.7512672372279722,
+       0.9987349105020502
+      ],
+      "per_iterate": 0.9958333333333333,
+      "certified_fraction": 0.24583333333333332,
+      "median_radius": 4.899071939088388
+     },
+     "B3 weighted conformal, level alpha": {
+      "whole_run": 0.2,
+      "whole_run_CI95": [
+       0.05733399705003277,
+       0.4366140029966683
+      ],
+      "per_iterate": 0.8083333333333332,
+      "certified_fraction": 0.7208333333333333,
+      "median_radius": 1.7549828109008665
+     },
+     "B3 weighted conformal, Bonferroni alpha/T": {
+      "whole_run": 1.0,
+      "whole_run_CI95": [
+       0.8315665290169146,
+       1.0
+      ],
+      "per_iterate": 1.0,
+      "certified_fraction": 0.3125,
+      "median_radius": 4.367473903033893
+     },
+     "B4 ACI gamma=0.005": {
+      "whole_run": 0.35,
+      "whole_run_CI95": [
+       0.15390920478454118,
+       0.5921885345328282
+      ],
+      "per_iterate": 0.8791666666666667,
+      "certified_fraction": 0.6833333333333333,
+      "median_radius": 1.9587804835907872
+     },
+     "B4 ACI gamma=0.05": {
+      "whole_run": 0.3,
+      "whole_run_CI95": [
+       0.11893159040572769,
+       0.5427891822762891
+      ],
+      "per_iterate": 0.8708333333333332,
+      "certified_fraction": 0.6958333333333333,
+      "median_radius": 1.9177618439223532
+     }
+    }
+   }
+  },
+  "secondary_39x38": {
+   "n_cal_runs": 39,
+   "n_test_runs": 38,
+   "weighted_classifier_train_acc": 0.7953020134228188,
+   "weighted_median_ESS": 91.75218798405598,
+   "alphas": {
+    "0.1": {
+     "run-max (Thm 1, reference)": {
+      "whole_run": 0.7631578947368421,
+      "whole_run_CI95": [
+       0.5975876394285091,
+       0.8855582951774693
+      ],
+      "per_iterate": 0.9802631578947368,
+      "certified_fraction": 0.4100877192982456,
+      "median_radius": 3.4443817857392007
+     },
+     "i.i.d. split conformal (reference)": {
+      "whole_run": 0.6052631578947368,
+      "whole_run_CI95": [
+       0.43386153860952953,
+       0.7596121063559645
+      ],
+      "per_iterate": 0.9320175438596491,
+      "certified_fraction": 0.6162280701754386,
+      "median_radius": 2.3091005525238595
+     },
+     "B1a Gaussian isotropic, level alpha": {
+      "whole_run": 0.02631578947368421,
+      "whole_run_CI95": [
+       0.0006660362042023656,
+       0.13809902979242006
+      ],
+      "per_iterate": 0.5219298245614035,
+      "certified_fraction": 0.8048245614035088,
+      "median_radius": 1.2345017464899495
+     },
+     "B1a Gaussian isotropic, Bonferroni alpha/T": {
+      "whole_run": 0.07894736842105263,
+      "whole_run_CI95": [
+       0.016586475864529524,
+       0.21377329118061816
+      ],
+      "per_iterate": 0.6864035087719298,
+      "certified_fraction": 0.7675438596491229,
+      "median_radius": 1.4742995959110692
+     },
+     "B1b Gaussian ensemble-cov, level alpha": {
+      "whole_run": 0.07894736842105263,
+      "whole_run_CI95": [
+       0.016586475864529524,
+       0.21377329118061816
+      ],
+      "per_iterate": 0.7105263157894738,
+      "certified_fraction": 0.7521929824561403,
+      "median_radius": 1.515540744357582
+     },
+     "B1b Gaussian ensemble-cov, Bonferroni alpha/T": {
+      "whole_run": 0.5526315789473685,
+      "whole_run_CI95": [
+       0.38299075116428966,
+       0.7137585009994039
+      ],
+      "per_iterate": 0.9232456140350876,
+      "certified_fraction": 0.5986842105263158,
+      "median_radius": 2.2947299747506986
+     },
+     "B2a per-step conformal, Bonferroni alpha/T": {
+      "whole_run": 1.0,
+      "whole_run_CI95": [
+       0.9074872385841217,
+       1.0
+      ],
+      "per_iterate": 1.0,
+      "certified_fraction": 0.0,
+      "median_radius": Infinity,
+      "finite": false,
+      "min_cal_runs_for_finite": 119
+     },
+     "B2b i.i.d. conformal, Bonferroni alpha/T": {
+      "whole_run": 0.9473684210526315,
+      "whole_run_CI95": [
+       0.8225094096523592,
+       0.9935612832849081
+      ],
+      "per_iterate": 0.9956140350877192,
+      "certified_fraction": 0.2149122807017544,
+      "median_radius": 5.84339007101827
+     },
+     "B2c pooled trajectory points, Bonferroni alpha/T": {
+      "whole_run": 0.9210526315789473,
+      "whole_run_CI95": [
+       0.7862267088193818,
+       0.9834135241354705
+      ],
+      "per_iterate": 0.993421052631579,
+      "certified_fraction": 0.24780701754385964,
+      "median_radius": 5.088624031274468
+     },
+     "B3 weighted conformal, level alpha": {
+      "whole_run": 0.5263157894736842,
+      "whole_run_CI95": [
+       0.35818343626050364,
+       0.6901926983917913
+      ],
+      "per_iterate": 0.9122807017543859,
+      "certified_fraction": 0.6491228070175439,
+      "median_radius": 2.1519323934426593
+     },
+     "B3 weighted conformal, Bonferroni alpha/T": {
+      "whole_run": 1.0,
+      "whole_run_CI95": [
+       0.9074872385841217,
+       1.0
+      ],
+      "per_iterate": 1.0,
+      "certified_fraction": 0.21710526315789475,
+      "median_radius": Infinity
+     },
+     "B4 ACI gamma=0.005": {
+      "whole_run": 0.5526315789473685,
+      "whole_run_CI95": [
+       0.38299075116428966,
+       0.7137585009994039
+      ],
+      "per_iterate": 0.9276315789473683,
+      "certified_fraction": 0.625,
+      "median_radius": 2.2239852633787915
+     },
+     "B4 ACI gamma=0.05": {
+      "whole_run": 0.5263157894736842,
+      "whole_run_CI95": [
+       0.35818343626050364,
+       0.6901926983917913
+      ],
+      "per_iterate": 0.9385964912280701,
+      "certified_fraction": 0.6162280701754386,
+      "median_radius": 2.1972292141261125
+     }
+    },
+    "0.2": {
+     "run-max (Thm 1, reference)": {
+      "whole_run": 0.6578947368421053,
+      "whole_run_CI95": [
+       0.4864732448393359,
+       0.8036709070509503
+      ],
+      "per_iterate": 0.9605263157894737,
+      "certified_fraction": 0.5087719298245614,
+      "median_radius": 2.793773261295452
+     },
+     "i.i.d. split conformal (reference)": {
+      "whole_run": 0.39473684210526316,
+      "whole_run_CI95": [
+       0.2403878936440354,
+       0.5661384613904704
+      ],
+      "per_iterate": 0.8750000000000002,
+      "certified_fraction": 0.6820175438596491,
+      "median_radius": 1.9661552495660988
+     },
+     "B1a Gaussian isotropic, level alpha": {
+      "whole_run": 0.02631578947368421,
+      "whole_run_CI95": [
+       0.0006660362042023656,
+       0.13809902979242006
+      ],
+      "per_iterate": 0.45614035087719296,
+      "certified_fraction": 0.8201754385964912,
+      "median_radius": 1.1430323038117345
+     },
+     "B1a Gaussian isotropic, Bonferroni alpha/T": {
+      "whole_run": 0.05263157894736842,
+      "whole_run_CI95": [
+       0.006438716715091909,
+       0.17749059034764078
+      ],
+      "per_iterate": 0.6578947368421053,
+      "certified_fraction": 0.7785087719298246,
+      "median_radius": 1.4159578456985293
+     },
+     "B1b Gaussian ensemble-cov, level alpha": {
+      "whole_run": 0.02631578947368421,
+      "whole_run_CI95": [
+       0.0006660362042023656,
+       0.13809902979242006
+      ],
+      "per_iterate": 0.5394736842105263,
+      "certified_fraction": 0.8048245614035088,
+      "median_radius": 1.2508862989695442
+     },
+     "B1b Gaussian ensemble-cov, Bonferroni alpha/T": {
+      "whole_run": 0.4473684210526316,
+      "whole_run_CI95": [
+       0.2862414990005962,
+       0.6170092488357104
+      ],
+      "per_iterate": 0.9013157894736841,
+      "certified_fraction": 0.6447368421052632,
+      "median_radius": 2.1187904465520986
+     },
+     "B2a per-step conformal, Bonferroni alpha/T": {
+      "whole_run": 1.0,
+      "whole_run_CI95": [
+       0.9074872385841217,
+       1.0
+      ],
+      "per_iterate": 1.0,
+      "certified_fraction": 0.0,
+      "median_radius": Infinity,
+      "finite": false,
+      "min_cal_runs_for_finite": 59
+     },
+     "B2b i.i.d. conformal, Bonferroni alpha/T": {
+      "whole_run": 0.8947368421052632,
+      "whole_run_CI95": [
+       0.751950620782978,
+       0.9705654825542123
+      ],
+      "per_iterate": 0.9912280701754386,
+      "certified_fraction": 0.30701754385964913,
+      "median_radius": 4.367473903033893
+     },
+     "B2c pooled trajectory points, Bonferroni alpha/T": {
+      "whole_run": 0.8157894736842105,
+      "whole_run_CI95": [
+       0.6567380056890788,
+       0.9225731481611512
+      ],
+      "per_iterate": 0.9846491228070174,
+      "certified_fraction": 0.3706140350877193,
+      "median_radius": 3.7618633718621073
+     },
+     "B3 weighted conformal, level alpha": {
+      "whole_run": 0.2894736842105263,
+      "whole_run_CI95": [
+       0.15424628678790986,
+       0.4590320669242924
+      ],
+      "per_iterate": 0.8311403508771931,
+      "certified_fraction": 0.6995614035087719,
+      "median_radius": 1.807117167567362
+     },
+     "B3 weighted conformal, Bonferroni alpha/T": {
+      "whole_run": 0.9210526315789473,
+      "whole_run_CI95": [
+       0.7862267088193818,
+       0.9834135241354705
+      ],
+      "per_iterate": 0.993421052631579,
+      "certified_fraction": 0.32456140350877194,
+      "median_radius": 4.367473903033893
+     },
+     "B4 ACI gamma=0.005": {
+      "whole_run": 0.39473684210526316,
+      "whole_run_CI95": [
+       0.2403878936440354,
+       0.5661384613904704
+      ],
+      "per_iterate": 0.8750000000000002,
+      "certified_fraction": 0.6820175438596491,
+      "median_radius": 1.9587804835907872
+     },
+     "B4 ACI gamma=0.05": {
+      "whole_run": 0.23684210526315788,
+      "whole_run_CI95": [
+       0.1144417048225307,
+       0.4024123605714909
+      ],
+      "per_iterate": 0.8618421052631581,
+      "certified_fraction": 0.6929824561403509,
+      "median_radius": 1.9177618439223532
+     }
+    }
+   }
+  }
+ }
+}

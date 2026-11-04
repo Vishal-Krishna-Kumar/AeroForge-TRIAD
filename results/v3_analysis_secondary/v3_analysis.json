@@ -1,0 +1,182 @@
+{
+ "objective": "J = CL/(CD+0.008)",
+ "metric": "M = diag(span^2), V3 box",
+ "H2pp": {
+  "fno": {
+   "n_cal": 128,
+   "n_test": 64,
+   "alphas": {
+    "0.1": {
+     "qhat": 2.3091005525238595,
+     "coverage": 0.796875,
+     "coverage_CI95": [
+      0.6777356932919598,
+      0.88717114052916
+     ],
+     "meets_v2_rule": false
+    },
+    "0.2": {
+     "qhat": 1.9661552495660988,
+     "coverage": 0.75,
+     "coverage_CI95": [
+      0.6260095431181809,
+      0.8498444259147272
+     ],
+     "meets_v2_rule": true
+    }
+   }
+  },
+  "mlp": {
+   "n_cal": 128,
+   "n_test": 64,
+   "alphas": {
+    "0.1": {
+     "qhat": 4.605268839922773,
+     "coverage": 0.890625,
+     "coverage_CI95": [
+      0.7875427740445976,
+      0.9548789798128852
+     ],
+     "meets_v2_rule": true
+    },
+    "0.2": {
+     "qhat": 3.7373008217787516,
+     "coverage": 0.796875,
+     "coverage_CI95": [
+      0.6777356932919598,
+      0.88717114052916
+     ],
+     "meets_v2_rule": true
+    }
+   }
+  }
+ },
+ "design": "secondary_39+38x12",
+ "design_complete": true,
+ "n_traj_points": 924,
+ "n_traj_missing": 0,
+ "raw_gradient_fallback": [
+  "T3_s27_t11"
+ ],
+ "runs_incomplete": [],
+ "median_score_iid_cal": 1.2292987590212099,
+ "median_score_traj": 1.1886009899298835,
+ "alphas": {
+  "0.1": {
+   "target": 0.9,
+   "threshold": 0.85,
+   "H5_runmax": {
+    "qhat": 3.4443817857392007,
+    "whole_run": 0.7631578947368421,
+    "whole_run_CI95": [
+     0.5975876394285091,
+     0.8855582951774693
+    ],
+    "per_iterate": 0.9802631578947368,
+    "per_iterate_CI95": [
+     0.969298245614035,
+     0.9912280701754386
+    ]
+   },
+   "H6_random_iterate": {
+    "qhat_median": 2.179282141978432,
+    "per_iterate_mean_over_draws": 0.9153289473684209
+   },
+   "H7_iid": {
+    "qhat": 2.3091005525238595,
+    "whole_run": 0.6052631578947368,
+    "whole_run_CI95": [
+     0.43386153860952953,
+     0.7596121063559645
+    ],
+    "per_iterate": 0.9320175438596491,
+    "per_iterate_CI95": [
+     0.8969298245614036,
+     0.9627192982456139
+    ]
+   },
+   "pooled_baseline_descriptive": {
+    "qhat": 2.1701515743677255,
+    "whole_run": 0.5263157894736842,
+    "whole_run_CI95": [
+     0.35818343626050364,
+     0.6901926983917913
+    ],
+    "per_iterate": 0.9166666666666665,
+    "per_iterate_CI95": [
+     0.8771929824561402,
+     0.9517543859649122
+    ]
+   },
+   "H5_supported": false,
+   "H6_ok_at_alpha": true,
+   "H7_replicated_at_alpha": true,
+   "LOO_runmax_whole_run_descriptive": 0.9090909090909091
+  },
+  "0.2": {
+   "target": 0.8,
+   "threshold": 0.75,
+   "H5_runmax": {
+    "qhat": 2.793773261295452,
+    "whole_run": 0.6578947368421053,
+    "whole_run_CI95": [
+     0.4864732448393359,
+     0.8036709070509503
+    ],
+    "per_iterate": 0.9605263157894737,
+    "per_iterate_CI95": [
+     0.9364035087719297,
+     0.9780701754385966
+    ]
+   },
+   "H6_random_iterate": {
+    "qhat_median": 1.7336663279896858,
+    "per_iterate_mean_over_draws": 0.8057368421052632
+   },
+   "H7_iid": {
+    "qhat": 1.9661552495660988,
+    "whole_run": 0.39473684210526316,
+    "whole_run_CI95": [
+     0.2403878936440354,
+     0.5661384613904704
+    ],
+    "per_iterate": 0.8750000000000002,
+    "per_iterate_CI95": [
+     0.8267543859649124,
+     0.9188596491228069
+    ]
+   },
+   "pooled_baseline_descriptive": {
+    "qhat": 1.7206264081817684,
+    "whole_run": 0.18421052631578946,
+    "whole_run_CI95": [
+     0.07742685183884879,
+     0.34326199431092114
+    ],
+    "per_iterate": 0.7982456140350879,
+    "per_iterate_CI95": [
+     0.7389802631578947,
+     0.8530701754385966
+    ]
+   },
+   "H5_supported": false,
+   "H6_ok_at_alpha": true,
+   "H7_replicated_at_alpha": true,
+   "LOO_runmax_whole_run_descriptive": 0.8051948051948052
+  }
+ },
+ "H6_supported": true,
+ "H7_replicated": true,
+ "H9": {
+  "n_steps": 456,
+  "non_ascent_fraction": 0.043859649122807015,
+  "n_certified": 187,
+  "n_uncertified": 269,
+  "verdict": "not testable in this regime (non-ascent fraction < 5 %)"
+ },
+ "certified_fraction_descriptive": {
+  "runmax": 0.4100877192982456,
+  "iid": 0.6162280701754386,
+  "pooled": 0.6447368421052632
+ }
+}

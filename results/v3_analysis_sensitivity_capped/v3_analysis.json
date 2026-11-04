@@ -1,0 +1,189 @@
+{
+ "objective": "J = CL/(CD+0.008)",
+ "metric": "M = diag(span^2), V3 box",
+ "H2pp": {
+  "fno": {
+   "n_cal": 117,
+   "n_test": 58,
+   "alphas": {
+    "0.1": {
+     "qhat": 2.3091005555164466,
+     "coverage": 0.8275862068965517,
+     "coverage_CI95": [
+      0.7057009942610892,
+      0.9140960046683859
+     ],
+     "meets_v2_rule": false
+    },
+    "0.2": {
+     "qhat": 1.917760942045402,
+     "coverage": 0.7758620689655172,
+     "coverage_CI95": [
+      0.64727610123125,
+      0.8749108108574308
+     ],
+     "meets_v2_rule": true
+    }
+   }
+  },
+  "mlp": {
+   "n_cal": 117,
+   "n_test": 58,
+   "alphas": {
+    "0.1": {
+     "qhat": 4.807049715299027,
+     "coverage": 0.9310344827586207,
+     "coverage_CI95": [
+      0.8327318671383359,
+      0.9808906881387957
+     ],
+     "meets_v2_rule": true
+    },
+    "0.2": {
+     "qhat": 3.7686734606955135,
+     "coverage": 0.8103448275862069,
+     "coverage_CI95": [
+      0.6859491384061586,
+      0.9013361831579132
+     ],
+     "meets_v2_rule": true
+    }
+   }
+  }
+ },
+ "design": "40x12",
+ "design_complete": true,
+ "n_traj_points": 454,
+ "n_traj_missing": 26,
+ "raw_gradient_fallback": [
+  "T3_s27_t11"
+ ],
+ "runs_incomplete": [
+  7,
+  10,
+  12,
+  16,
+  18,
+  35
+ ],
+ "median_score_iid_cal": 1.2003599023942475,
+ "median_score_traj": 1.1362899649632403,
+ "alphas": {
+  "0.1": {
+   "target": 0.9,
+   "threshold": 0.85,
+   "H5_runmax": {
+    "qhat": 4.899071939088388,
+    "whole_run": 0.95,
+    "whole_run_CI95": [
+     0.7512672372279722,
+     0.9987349105020502
+    ],
+    "per_iterate": 0.9958333333333333,
+    "per_iterate_CI95": [
+     0.9875,
+     1.0
+    ]
+   },
+   "H6_random_iterate": {
+    "qhat_median": 2.5458833324452335,
+    "per_iterate_mean_over_draws": 0.9318416666666667
+   },
+   "H7_iid": {
+    "qhat": 2.3091005555164466,
+    "whole_run": 0.7,
+    "whole_run_CI95": [
+     0.45721081772371086,
+     0.8810684095942722
+    ],
+    "per_iterate": 0.9375,
+    "per_iterate_CI95": [
+     0.8875,
+     0.9792708333333329
+    ]
+   },
+   "pooled_baseline_descriptive": {
+    "qhat": 2.33309927566731,
+    "whole_run": 0.7,
+    "whole_run_CI95": [
+     0.45721081772371086,
+     0.8810684095942722
+    ],
+    "per_iterate": 0.9375,
+    "per_iterate_CI95": [
+     0.8875,
+     0.9791666666666666
+    ]
+   },
+   "H5_supported": true,
+   "H6_ok_at_alpha": true,
+   "H7_replicated_at_alpha": true,
+   "LOO_runmax_whole_run_descriptive": 0.9
+  },
+  "0.2": {
+   "target": 0.8,
+   "threshold": 0.75,
+   "H5_runmax": {
+    "qhat": 2.8962962049580936,
+    "whole_run": 0.75,
+    "whole_run_CI95": [
+     0.5089541282920425,
+     0.9134285308985653
+    ],
+    "per_iterate": 0.9666666666666666,
+    "per_iterate_CI95": [
+     0.9290624999999999,
+     0.9916666666666666
+    ]
+   },
+   "H6_random_iterate": {
+    "qhat_median": 1.7817782142361474,
+    "per_iterate_mean_over_draws": 0.8400875
+   },
+   "H7_iid": {
+    "qhat": 1.917760942045402,
+    "whole_run": 0.3,
+    "whole_run_CI95": [
+     0.11893159040572769,
+     0.5427891822762891
+    ],
+    "per_iterate": 0.8777777777777777,
+    "per_iterate_CI95": [
+     0.8208333333333332,
+     0.9291666666666668
+    ]
+   },
+   "pooled_baseline_descriptive": {
+    "qhat": 1.7206205838121382,
+    "whole_run": 0.2,
+    "whole_run_CI95": [
+     0.05733399705003277,
+     0.4366140029966683
+    ],
+    "per_iterate": 0.8125,
+    "per_iterate_CI95": [
+     0.7291666666666666,
+     0.8833333333333332
+    ]
+   },
+   "H5_supported": true,
+   "H6_ok_at_alpha": true,
+   "H7_replicated_at_alpha": true,
+   "LOO_runmax_whole_run_descriptive": 0.8
+  }
+ },
+ "H6_supported": true,
+ "H7_replicated": true,
+ "H9": {
+  "n_steps": 237,
+  "non_ascent_fraction": 0.04219409282700422,
+  "n_certified": 56,
+  "n_uncertified": 181,
+  "verdict": "not testable in this regime (non-ascent fraction < 5 %)"
+ },
+ "certified_fraction_descriptive": {
+  "runmax": 0.23628691983122363,
+  "iid": 0.6033755274261603,
+  "pooled": 0.5991561181434599
+ }
+}

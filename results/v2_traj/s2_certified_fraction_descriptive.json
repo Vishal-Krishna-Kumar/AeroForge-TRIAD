@@ -1,0 +1,87 @@
+{
+ "note": "descriptive, not pre-registered",
+ "n_test_points": 300,
+ "n_test_runs": 20,
+ "raw_gradient_fallback": [
+  "T2_s37_t04"
+ ],
+ "frac_all_steps_true_ascent": 0.9966666666666667,
+ "alphas": {
+  "0.1": {
+   "iid": {
+    "qhat": 2.4058181360603577,
+    "frac_steps_certified": 0.88,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_certified_steps_covered": 0.7272727272727273,
+    "frac_runs_all_steps_certified": 0.75,
+    "median_steps_certified_per_run": 15.0,
+    "median_radius_over_grad_norm": 0.3015749538329211
+   },
+   "pooled": {
+    "qhat": 4.328876742412329,
+    "frac_steps_certified": 0.7033333333333334,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_certified_steps_covered": 0.966824644549763,
+    "frac_runs_all_steps_certified": 0.3,
+    "median_steps_certified_per_run": 12.5,
+    "median_radius_over_grad_norm": 0.5426348667730934
+   },
+   "runmax": {
+    "qhat": 8.691480141560918,
+    "frac_steps_certified": 0.44666666666666666,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_certified_steps_covered": 1.0,
+    "frac_runs_all_steps_certified": 0.0,
+    "median_steps_certified_per_run": 6.0,
+    "median_radius_over_grad_norm": 1.0894974491809322
+   },
+   "random_iterate_median": {
+    "qhat": 4.639375766816392,
+    "frac_steps_certified": 0.68,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_certified_steps_covered": 0.9803921568627451,
+    "frac_runs_all_steps_certified": 0.3,
+    "median_steps_certified_per_run": 12.0,
+    "median_radius_over_grad_norm": 0.5815566487425152
+   }
+  },
+  "0.2": {
+   "iid": {
+    "qhat": 1.8080111573928872,
+    "frac_steps_certified": 0.9133333333333333,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_certified_steps_covered": 0.5985401459854015,
+    "frac_runs_all_steps_certified": 0.85,
+    "median_steps_certified_per_run": 15.0,
+    "median_radius_over_grad_norm": 0.22663844500442604
+   },
+   "pooled": {
+    "qhat": 3.056031790534747,
+    "frac_steps_certified": 0.83,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_certified_steps_covered": 0.8032128514056225,
+    "frac_runs_all_steps_certified": 0.45,
+    "median_steps_certified_per_run": 14.0,
+    "median_radius_over_grad_norm": 0.38308076255990686
+   },
+   "runmax": {
+    "qhat": 7.655041613017609,
+    "frac_steps_certified": 0.5133333333333333,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_certified_steps_covered": 1.0,
+    "frac_runs_all_steps_certified": 0.0,
+    "median_steps_certified_per_run": 7.5,
+    "median_radius_over_grad_norm": 0.9595774453738498
+   },
+   "random_iterate_median": {
+    "qhat": 3.3330826427904636,
+    "frac_steps_certified": 0.8066666666666666,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_certified_steps_covered": 0.8347107438016529,
+    "frac_runs_all_steps_certified": 0.4,
+    "median_steps_certified_per_run": 14.0,
+    "median_radius_over_grad_norm": 0.41780973759174733
+   }
+  }
+ }
+}

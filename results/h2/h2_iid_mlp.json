@@ -1,0 +1,267 @@
+{
+ "model": "mlp",
+ "utc": "2026-10-13T06:14:54.042154+00:00",
+ "metric": "M = diag(span^2)",
+ "objective": "L/D",
+ "protocol": "experiment_protocol_v1.md \u00a74 (i.i.d. part)",
+ "splits": {
+  "cal": {
+   "n": 128,
+   "n_with_adjoint": 128
+  },
+  "test": {
+   "n": 128,
+   "n_with_adjoint": 128
+  }
+ },
+ "preregistered_split": [
+  {
+   "alpha": 0.1,
+   "n_cal": 128,
+   "n_test": 128,
+   "qhat": 9.90029025514433,
+   "coverage": 0.9375,
+   "coverage_CI95": [
+    0.880563216606146,
+    0.9726333151136292
+   ],
+   "target": 0.9,
+   "additional": {
+    "median_radius_over_grad_norm": 0.023761639145537142,
+    "frac_steps_certified": 1.0,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_all_steps_true_ascent": 1.0
+   }
+  },
+  {
+   "alpha": 0.2,
+   "n_cal": 128,
+   "n_test": 128,
+   "qhat": 8.255459823674714,
+   "coverage": 0.8828125,
+   "coverage_CI95": [
+    0.8140910983080725,
+    0.9329059181181221
+   ],
+   "target": 0.8,
+   "additional": {
+    "median_radius_over_grad_norm": 0.019813889517906712,
+    "frac_steps_certified": 1.0,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_all_steps_true_ascent": 1.0
+   }
+  }
+ ],
+ "resamples": [
+  {
+   "seed": 0,
+   "results": [
+    {
+     "alpha": 0.1,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 8.656195565270957,
+     "coverage": 0.84375,
+     "coverage_CI95": [
+      0.7690502643298885,
+      0.9018683329891345
+     ],
+     "target": 0.9,
+     "additional": {
+      "median_radius_over_grad_norm": 0.020656010927279107,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    },
+    {
+     "alpha": 0.2,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 7.810907947249347,
+     "coverage": 0.8046875,
+     "coverage_CI95": [
+      0.7253279819315551,
+      0.8694354476342538
+     ],
+     "target": 0.8,
+     "additional": {
+      "median_radius_over_grad_norm": 0.018638927308628032,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "results": [
+    {
+     "alpha": 0.1,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 9.584175982064169,
+     "coverage": 0.921875,
+     "coverage_CI95": [
+      0.8610175408226004,
+      0.9619006105596336
+     ],
+     "target": 0.9,
+     "additional": {
+      "median_radius_over_grad_norm": 0.022440824037000325,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    },
+    {
+     "alpha": 0.2,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 7.820437441986771,
+     "coverage": 0.8125,
+     "coverage_CI95": [
+      0.7339835974998978,
+      0.8760151009741204
+     ],
+     "target": 0.8,
+     "additional": {
+      "median_radius_over_grad_norm": 0.018311126679687366,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "results": [
+    {
+     "alpha": 0.1,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 9.640780023117248,
+     "coverage": 0.9296875,
+     "coverage_CI95": [
+      0.8707206120454714,
+      0.9673463726807808
+     ],
+     "target": 0.9,
+     "additional": {
+      "median_radius_over_grad_norm": 0.025214201637298404,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    },
+    {
+     "alpha": 0.2,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 8.255459823674714,
+     "coverage": 0.8828125,
+     "coverage_CI95": [
+      0.8140910983080725,
+      0.9329059181181221
+     ],
+     "target": 0.8,
+     "additional": {
+      "median_radius_over_grad_norm": 0.02159107749618017,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "results": [
+    {
+     "alpha": 0.1,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 10.267504830961585,
+     "coverage": 0.9453125,
+     "coverage_CI95": [
+      0.8905679484317433,
+      0.9777328541900766
+     ],
+     "target": 0.9,
+     "additional": {
+      "median_radius_over_grad_norm": 0.024642989087274164,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    },
+    {
+     "alpha": 0.2,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 8.167537901102948,
+     "coverage": 0.8671875,
+     "coverage_CI95": [
+      0.7958891975640359,
+      0.9206890460771981
+     ],
+     "target": 0.8,
+     "additional": {
+      "median_radius_over_grad_norm": 0.019602868533340468,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "results": [
+    {
+     "alpha": 0.1,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 9.065436029245733,
+     "coverage": 0.8671875,
+     "coverage_CI95": [
+      0.7958891975640359,
+      0.9206890460771981
+     ],
+     "target": 0.9,
+     "additional": {
+      "median_radius_over_grad_norm": 0.021675181897004618,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    },
+    {
+     "alpha": 0.2,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 7.320248646314875,
+     "coverage": 0.7265625,
+     "coverage_CI95": [
+      0.6407600036592764,
+      0.8015775156335863
+     ],
+     "target": 0.8,
+     "additional": {
+      "median_radius_over_grad_norm": 0.017502491929599802,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    }
+   ]
+  }
+ ],
+ "resample_mean_coverage": {
+  "0.1": 0.9015625,
+  "0.2": 0.81875
+ },
+ "trajectory_coverage": "pending: needs CFD-verified optimiser trajectories (H3 runs); H2 falsification test not yet evaluable"
+}

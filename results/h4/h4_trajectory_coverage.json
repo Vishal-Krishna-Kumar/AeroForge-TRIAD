@@ -1,0 +1,194 @@
+{
+ "info": {
+  "runs": 100,
+  "verified_points_total": 700,
+  "missing_gradient": [],
+  "not_converged": [],
+  "unique_points": 241,
+  "usable_points": 241
+ },
+ "primary_LD": {
+  "quantity": "L/D gradient",
+  "n_points": 241,
+  "alphas": {
+   "0.1": {
+    "iid_preregistered": {
+     "qhat": 2.3892612636457327,
+     "coverage": 0.6556016597510373,
+     "CI95_start_bootstrap": [
+      0.4957281946295944,
+      0.8066206459435624
+     ]
+    },
+    "iid_resampled_mean_coverage": 0.658091286307054,
+    "iid_resampled_each": [
+     0.6721991701244814,
+     0.6473029045643154,
+     0.6265560165975104,
+     0.6265560165975104,
+     0.7178423236514523
+    ],
+    "target": 0.9,
+    "H2_falsified_at_this_alpha": true,
+    "H4_run_level_split": [
+     {
+      "cal_starts": [
+       0,
+       1,
+       2,
+       3,
+       4
+      ],
+      "test_starts": [
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "n_cal": 127,
+      "n_test": 114,
+      "qhat_trajectory": 4.620166333831024,
+      "coverage_trajectory_calibrated": 0.9298245614035088,
+      "CI95_traj": [
+       0.8476190476190476,
+       0.9907407407407407
+      ],
+      "coverage_iid_calibrated": 0.7631578947368421,
+      "CI95_iid": [
+       0.6666666666666666,
+       0.8572055137844607
+      ]
+     },
+     {
+      "cal_starts": [
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "test_starts": [
+       0,
+       1,
+       2,
+       3,
+       4
+      ],
+      "n_cal": 114,
+      "n_test": 127,
+      "qhat_trajectory": 4.35783901819161,
+      "coverage_trajectory_calibrated": 0.8661417322834646,
+      "CI95_traj": [
+       0.6046511627906976,
+       1.0
+      ],
+      "coverage_iid_calibrated": 0.5590551181102362,
+      "CI95_iid": [
+       0.32116788321167883,
+       0.8211382113821138
+      ]
+     }
+    ],
+    "by_gate_iid_preregistered_coverage": {
+     "always": 0.6666666666666666,
+     "cdgc": 0.7083333333333334,
+     "distance": 0.6857142857142857,
+     "never": 0.7285714285714285,
+     "output_uq": 0.6933333333333334
+    }
+   },
+   "0.2": {
+    "iid_preregistered": {
+     "qhat": 1.6847448026217644,
+     "coverage": 0.4107883817427386,
+     "CI95_start_bootstrap": [
+      0.26776117288169493,
+      0.5622620351536013
+     ]
+    },
+    "iid_resampled_mean_coverage": 0.48298755186721987,
+    "iid_resampled_each": [
+     0.49377593360995853,
+     0.49377593360995853,
+     0.4315352697095436,
+     0.45643153526970953,
+     0.5394190871369294
+    ],
+    "target": 0.8,
+    "H2_falsified_at_this_alpha": true,
+    "H4_run_level_split": [
+     {
+      "cal_starts": [
+       0,
+       1,
+       2,
+       3,
+       4
+      ],
+      "test_starts": [
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "n_cal": 127,
+      "n_test": 114,
+      "qhat_trajectory": 3.1775359748524656,
+      "coverage_trajectory_calibrated": 0.8157894736842105,
+      "CI95_traj": [
+       0.7192982456140351,
+       0.9142857142857143
+      ],
+      "coverage_iid_calibrated": 0.5350877192982456,
+      "CI95_iid": [
+       0.4117647058823529,
+       0.6923076923076923
+      ]
+     },
+     {
+      "cal_starts": [
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "test_starts": [
+       0,
+       1,
+       2,
+       3,
+       4
+      ],
+      "n_cal": 114,
+      "n_test": 127,
+      "qhat_trajectory": 2.8700662311871494,
+      "coverage_trajectory_calibrated": 0.7559055118110236,
+      "CI95_traj": [
+       0.5223880597014925,
+       0.9747899159663865
+      ],
+      "coverage_iid_calibrated": 0.2992125984251969,
+      "CI95_iid": [
+       0.1033429849960516,
+       0.5121951219512195
+      ]
+     }
+    ],
+    "by_gate_iid_preregistered_coverage": {
+     "always": 0.4,
+     "cdgc": 0.4722222222222222,
+     "distance": 0.4714285714285714,
+     "never": 0.4857142857142857,
+     "output_uq": 0.4533333333333333
+    }
+   }
+  },
+  "median_score_cal": 0.9890000665275811,
+  "median_score_traj": 1.984738916646837
+ },
+ "note_secondary": "the penalised-objective (J) variant named in the docstring is not computed by this version",
+ "H2_trajectory_falsified": true
+}

@@ -1,0 +1,78 @@
+{
+ "theory": {
+  "primary_20x20 a0.1": {
+   "n": 20,
+   "m": 20,
+   "k": 19,
+   "mean": 0.9047619047619048,
+   "q05": 0.75,
+   "q95": 1.0,
+   "P_pass_rule": 0.829175329175329,
+   "observed": 0.95,
+   "observed_cdf": 0.7564102564102565
+  },
+  "primary_20x20 a0.2": {
+   "n": 20,
+   "m": 20,
+   "k": 17,
+   "mean": 0.8095238095238095,
+   "q05": 0.6,
+   "q95": 1.0,
+   "P_pass_rule": 0.774711774711775,
+   "observed": 0.7,
+   "observed_cdf": 0.225288225288225
+  },
+  "secondary_39x38 a0.1": {
+   "n": 39,
+   "m": 38,
+   "k": 36,
+   "mean": 0.9,
+   "q05": 0.7631578947368421,
+   "q95": 1.0,
+   "P_pass_rule": 0.7728047378973067,
+   "observed": 0.7631578947368421,
+   "observed_cdf": 0.0514213117772174
+  },
+  "secondary_39x38 a0.2": {
+   "n": 39,
+   "m": 38,
+   "k": 32,
+   "mean": 0.8,
+   "q05": 0.631578947368421,
+   "q95": 0.9210526315789473,
+   "P_pass_rule": 0.7288275787944256,
+   "observed": 0.6578947368421053,
+   "observed_cdf": 0.08547610898602334
+  }
+ },
+ "pac": {
+  "primary_20x20 a0.1": {
+   "k_pac": null,
+   "qhat_pac": Infinity,
+   "qhat_marginal": 4.899071939088388,
+   "whole_run": 1.0,
+   "certified_fraction": 0.0
+  },
+  "primary_20x20 a0.2": {
+   "k_pac": 19,
+   "qhat_pac": 4.899071939088388,
+   "qhat_marginal": 3.22952522500467,
+   "whole_run": 0.95,
+   "certified_fraction": 0.24583333333333332
+  },
+  "secondary_39x38 a0.1": {
+   "k_pac": 38,
+   "qhat_pac": 4.899071939088388,
+   "qhat_marginal": 3.4443817857392007,
+   "whole_run": 0.9210526315789473,
+   "certified_fraction": 0.25219298245614036
+  },
+  "secondary_39x38 a0.2": {
+   "k_pac": 35,
+   "qhat_pac": 3.22952522500467,
+   "qhat_marginal": 2.793773261295452,
+   "whole_run": 0.7105263157894737,
+   "certified_fraction": 0.43640350877192985
+  }
+ }
+}

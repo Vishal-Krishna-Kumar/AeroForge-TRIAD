@@ -1,0 +1,76 @@
+{
+ "n_resplits": 5000,
+ "seed": 20261041,
+ "kinds": {
+  "fno": {
+   "n_cal": 128,
+   "n_test": 64,
+   "mwu_cal_vs_test_p": 0.22177209506945716,
+   "median_score_cal": 1.2292987590212099,
+   "median_score_test": 1.3589628530035465,
+   "alphas": {
+    "0.1": {
+     "observed": 0.796875,
+     "theory_mean": 0.9069767441860465,
+     "theory_q05": 0.828125,
+     "theory_q95": 0.96875,
+     "theory_P_pass_rule": 0.8885128904537789,
+     "theory_observed_cdf": 0.020624706013824434,
+     "resplit_mean": 0.906115625,
+     "resplit_q05": 0.828125,
+     "resplit_q95": 0.96875,
+     "resplit_P_pass_rule": 0.8842,
+     "observed_resplit_percentile": 0.0214
+    },
+    "0.2": {
+     "observed": 0.75,
+     "theory_mean": 0.8062015503875969,
+     "theory_q05": 0.703125,
+     "theory_q95": 0.90625,
+     "theory_P_pass_rule": 0.8548567099042018,
+     "theory_observed_cdf": 0.20593880070328463,
+     "resplit_mean": 0.805153125,
+     "resplit_q05": 0.703125,
+     "resplit_q95": 0.90625,
+     "resplit_P_pass_rule": 0.8542,
+     "observed_resplit_percentile": 0.2066
+    }
+   }
+  },
+  "mlp": {
+   "n_cal": 128,
+   "n_test": 64,
+   "mwu_cal_vs_test_p": 0.4578058772723118,
+   "median_score_cal": 2.322614946980269,
+   "median_score_test": 2.337863004520356,
+   "alphas": {
+    "0.1": {
+     "observed": 0.890625,
+     "theory_mean": 0.9069767441860465,
+     "theory_q05": 0.828125,
+     "theory_q95": 0.96875,
+     "theory_P_pass_rule": 0.8885128904537789,
+     "theory_observed_cdf": 0.38814400639983315,
+     "resplit_mean": 0.90729375,
+     "resplit_q05": 0.828125,
+     "resplit_q95": 0.96875,
+     "resplit_P_pass_rule": 0.8908,
+     "observed_resplit_percentile": 0.3876
+    },
+    "0.2": {
+     "observed": 0.796875,
+     "theory_mean": 0.8062015503875969,
+     "theory_q05": 0.703125,
+     "theory_q95": 0.90625,
+     "theory_P_pass_rule": 0.8548567099042018,
+     "theory_observed_cdf": 0.4689266270598522,
+     "resplit_mean": 0.806559375,
+     "resplit_q05": 0.703125,
+     "resplit_q95": 0.90625,
+     "resplit_P_pass_rule": 0.8564,
+     "observed_resplit_percentile": 0.4648
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "run": {
+  "returncode": 0,
+  "wall_s": 299.2
+ },
+ "CL": 0.7519830862,
+ "CD": 0.03298786952,
+ "rms_p": -12.91754237,
+ "CL_abs_spread100": 0.0,
+ "CD_abs_spread100": 0.0,
+ "min_area_ratio": 1.0
+}

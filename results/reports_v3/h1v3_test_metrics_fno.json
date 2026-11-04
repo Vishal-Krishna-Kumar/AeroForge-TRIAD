@@ -1,0 +1,75 @@
+{
+ "meta": {
+  "train_hash": "56abfabb171c67dcbafcb8c41b281de684a9fc0b58fcf04fcb0abe3a7fda54fe",
+  "test_hash": "478c00442a5e78d56633f51efcfe57d010c93fbd8ba4b582aa30011909765863",
+  "cal_hash": "1d223edc0f810f3cb6f5bb2906c8f5a8dd4132731416467c1ccc510ab8c7335e",
+  "n_train": 384,
+  "n_fit": 336,
+  "n_val": 48,
+  "n_cal": 128,
+  "n_test": 64,
+  "args": {
+   "model": "fno",
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "epochs": 500,
+   "snapshot_seed": 0,
+   "frames": 200,
+   "out": "checkpoints/v3/fno"
+  },
+  "torch": "2.11.0+cu130",
+  "gpu": "NVIDIA L4",
+  "load_s": 4.0
+ },
+ "members": [
+  {
+   "median_rel_err_J": 0.02782142017260138,
+   "median_rel_grad_err_J": 0.27230814851823415,
+   "frac_cos_below_0.98": 0.53125,
+   "median_cos": 0.977658418493569,
+   "n_grad_points": 64
+  },
+  {
+   "median_rel_err_J": 0.022573574386858607,
+   "median_rel_grad_err_J": 0.22759712089892709,
+   "frac_cos_below_0.98": 0.375,
+   "median_cos": 0.9825882159627912,
+   "n_grad_points": 64
+  },
+  {
+   "median_rel_err_J": 0.02710697364280419,
+   "median_rel_grad_err_J": 0.24261701342422087,
+   "frac_cos_below_0.98": 0.484375,
+   "median_cos": 0.9805932365621257,
+   "n_grad_points": 64
+  },
+  {
+   "median_rel_err_J": 0.02234055288729303,
+   "median_rel_grad_err_J": 0.20440692040684938,
+   "frac_cos_below_0.98": 0.40625,
+   "median_cos": 0.9833646774522529,
+   "n_grad_points": 64
+  },
+  {
+   "median_rel_err_J": 0.023267058244552392,
+   "median_rel_grad_err_J": 0.2720320425149616,
+   "frac_cos_below_0.98": 0.53125,
+   "median_cos": 0.9788574527831004,
+   "n_grad_points": 64
+  }
+ ],
+ "ensemble": {
+  "median_rel_err_J": 0.020969506383416776,
+  "median_rel_grad_err_J": 0.20435556106870312,
+  "frac_cos_below_0.98": 0.421875,
+  "median_cos": 0.9843157010168555,
+  "n_grad_points": 64
+ },
+ "H1pp_supported": true,
+ "H1pp_falsified": false
+}

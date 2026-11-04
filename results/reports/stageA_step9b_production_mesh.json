@@ -1,0 +1,200 @@
+{
+  "gci_P": {
+    "naca0012_Re1000_a4": {
+      "levels": {
+        "coarse": {
+          "CL": 0.2067319714,
+          "CD": 0.1243530409,
+          "LD": 1.6624601208284564,
+          "status": "converged",
+          "cells": 49216,
+          "wall_s": 374.7,
+          "iters": 626,
+          "rms_p": -10.38579065
+        },
+        "medium": {
+          "CL": 0.2031394279,
+          "CD": 0.1241487569,
+          "LD": 1.636258251571748,
+          "status": "converged",
+          "cells": 105412,
+          "wall_s": 887.3,
+          "iters": 800,
+          "rms_p": -10.31284828
+        },
+        "fine": {
+          "CL": 0.2025008423,
+          "CD": 0.1241676242,
+          "LD": 1.6308666901271032,
+          "status": "not_converged",
+          "cells": 228046,
+          "wall_s": 1943.2,
+          "iters": 826,
+          "rms_p": -9.059315247
+        }
+      },
+      "gci": "incomplete"
+    },
+    "naca4412_Re2000_a4": {
+      "levels": {
+        "coarse": {
+          "CL": 0.20878807,
+          "CD": 0.09487902963,
+          "LD": 2.2005713044727733,
+          "status": "not_converged",
+          "cells": 49178,
+          "wall_s": 391.0,
+          "iters": 622,
+          "rms_p": -9.304623542
+        },
+        "medium": {
+          "CL": 0.2042847703,
+          "CD": 0.09432326296,
+          "LD": 2.165794141225074,
+          "status": "not_converged",
+          "cells": 105451,
+          "wall_s": 978.6,
+          "iters": 787,
+          "rms_p": -8.934547861
+        },
+        "fine": {
+          "CL": 0.2166589481,
+          "CD": 0.09697998918,
+          "LD": 2.234058282867711,
+          "status": "not_converged",
+          "cells": 228056,
+          "wall_s": 9104.9,
+          "iters": 4000,
+          "rms_p": -6.189596056
+        }
+      },
+      "gci": "incomplete"
+    }
+  },
+  "gci_P_settled": {
+    "naca0012_Re1000_a4": {
+      "levels": {
+        "coarse": {
+          "CL": 0.2067319714,
+          "CD": 0.1243530409,
+          "LD": 1.6624601208284564,
+          "status": "converged",
+          "cells": 49216,
+          "iters": 626,
+          "rms_p": -10.38579065,
+          "CL_spread100": 9.611204107190067e-05,
+          "CD_spread100": 8.660799302583099e-06,
+          "continuation_segments": 0,
+          "wall_s_total": 374.7,
+          "source_status": "converged"
+        },
+        "medium": {
+          "CL": 0.2031394279,
+          "CD": 0.1241487569,
+          "LD": 1.636258251571748,
+          "status": "converged",
+          "cells": 105412,
+          "iters": 800,
+          "rms_p": -10.31284828,
+          "CL_spread100": 9.780840599343895e-05,
+          "CD_spread100": 1.1848635046839978e-05,
+          "continuation_segments": 0,
+          "wall_s_total": 887.3,
+          "source_status": "converged"
+        },
+        "fine": {
+          "CL": 0.2023790594,
+          "CD": 0.1241615022,
+          "LD": 1.629966260185921,
+          "status": "converged",
+          "cells": 228046,
+          "iters": 1226,
+          "rms_p": -10.90205085,
+          "CL_spread100": 2.024500776924551e-05,
+          "CD_spread100": 3.228050361637102e-06,
+          "continuation_segments": 2,
+          "wall_s_total": 3077.7,
+          "source_status": "not_converged"
+        }
+      },
+      "gci": {
+        "CL": {
+          "fine": 0.2023790594,
+          "medium": 0.2031394279,
+          "coarse": 0.2067319714,
+          "observed_order_p": 3.829706949369399,
+          "richardson_extrapolated": 0.20217491938188947,
+          "gci_fine_pct": 0.12608766114177705,
+          "gci_medium_pct": 0.5935015472386218,
+          "asymptotic_ratio": 0.9962569132548003
+        },
+        "CD": {
+          "fine": 0.1241615022,
+          "medium": 0.1241487569,
+          "coarse": 0.1243530409,
+          "note": "oscillatory or exact convergence; observed order undefined",
+          "gci_fine_pct": 0.012831372621705878
+        },
+        "LD": {
+          "fine": 1.629966260185921,
+          "medium": 1.636258251571748,
+          "coarse": 1.6624601208284564,
+          "observed_order_p": 3.5183129429471145,
+          "richardson_extrapolated": 1.627977842383659,
+          "gci_fine_pct": 0.1524891841959924,
+          "gci_medium_pct": 0.6325719962095709,
+          "asymptotic_ratio": 0.9961546465053526
+        }
+      }
+    },
+    "naca4412_Re2000_a4": {
+      "levels": {
+        "coarse": {
+          "CL": 0.2087319896,
+          "CD": 0.09487616956,
+          "LD": 2.20004655086752,
+          "status": "converged",
+          "cells": 49178,
+          "iters": 822,
+          "rms_p": -10.60843291,
+          "CL_spread100": 4.7952481301837e-05,
+          "CD_spread100": 5.394494196255426e-06,
+          "continuation_segments": 1,
+          "wall_s_total": 508.0,
+          "source_status": "not_converged"
+        },
+        "medium": {
+          "CL": 0.2041905001,
+          "CD": 0.09431686818,
+          "LD": 2.1649414790820933,
+          "status": "converged",
+          "cells": 105451,
+          "iters": 1187,
+          "rms_p": -9.352153326,
+          "CL_spread100": 3.2230892378154574e-05,
+          "CD_spread100": 1.0356382635768938e-05,
+          "continuation_segments": 2,
+          "wall_s_total": 1454.6,
+          "source_status": "not_converged"
+        },
+        "fine": {
+          "CL": 0.2166589481,
+          "CD": 0.09697998918,
+          "LD": 2.234058282867711,
+          "status": "not_converged",
+          "cells": 228056,
+          "iters": 4000,
+          "rms_p": -6.189596056,
+          "CL_spread100": 0.1025981192333551,
+          "CD_spread100": 0.03159678238895024,
+          "continuation_segments": 0,
+          "wall_s_total": 9104.9,
+          "source_status": "not_converged"
+        }
+      },
+      "gci": "incomplete"
+    }
+  },
+  "farfield_P_settled": {},
+  "settle_note": "Step 9c: Step 9b cases continued from their own mesh and restart files until the 100-iteration relative spread of CL and CD is < 1e-4 (cfd.pipeline.continue_case); records '<id>_S'. gci_P_settled and farfield_P_settled supersede gci_P and farfield_P."
+}

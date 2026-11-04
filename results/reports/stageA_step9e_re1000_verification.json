@@ -1,0 +1,121 @@
+{
+  "gci_P": {
+    "levels": {
+      "coarse": {
+        "CL": 0.2526914323,
+        "CD": 0.1307426735,
+        "LD": 1.9327387572505166,
+        "status": "converged",
+        "cells": 49146,
+        "wall_s": 329.5,
+        "iters": 725,
+        "rms_p": -10.83209684,
+        "CL_spread100": 2.5068689398531037e-05,
+        "CD_spread100": 2.9240613540312744e-06,
+        "continuation_segments": 1
+      },
+      "medium": {
+        "CL": 0.2488485565,
+        "CD": 0.1305444444,
+        "LD": 1.9062362833113413,
+        "status": "converged",
+        "cells": 105487,
+        "wall_s": 686.0,
+        "iters": 867,
+        "rms_p": -10.34503164,
+        "CL_spread100": 7.022188292608452e-05,
+        "CD_spread100": 9.975107415245146e-06,
+        "continuation_segments": 1
+      },
+      "fine": {
+        "CL": 0.2470231235,
+        "CD": 0.1305581861,
+        "LD": 1.8920538870752586,
+        "status": "converged",
+        "cells": 228046,
+        "wall_s": 2222.0,
+        "iters": 1300,
+        "rms_p": -10.26517574,
+        "CL_spread100": 2.7183407030732507e-05,
+        "CD_spread100": 5.942164984791307e-06,
+        "continuation_segments": 2
+      }
+    },
+    "gci": {
+      "CL": {
+        "fine": 0.2470231235,
+        "medium": 0.2488485565,
+        "coarse": 0.2526914323,
+        "observed_order_p": 1.8359256037242877,
+        "richardson_extrapolated": 0.2453714257975972,
+        "gci_fine_pct": 0.8358011585111786,
+        "gci_medium_pct": 1.746609841397058,
+        "asymptotic_ratio": 0.992664482263131
+      },
+      "CD": {
+        "fine": 0.1305581861,
+        "medium": 0.1305444444,
+        "coarse": 0.1307426735,
+        "note": "oscillatory or exact convergence; observed order undefined",
+        "gci_fine_pct": 0.013156681716503601
+      },
+      "LD": {
+        "fine": 1.8920538870752586,
+        "medium": 1.9062362833113413,
+        "coarse": 1.9327387572505166,
+        "observed_order_p": 1.5420231691210389,
+        "richardson_extrapolated": 1.875727661880529,
+        "gci_fine_pct": 1.0786046651640706,
+        "gci_medium_pct": 2.0005797351768635,
+        "asymptotic_ratio": 0.9925600008979756
+      }
+    }
+  },
+  "farfield_P": {
+    "R100": {
+      "CL": 0.2488485565,
+      "CD": 0.1305444444,
+      "LD": 1.9062362833113413,
+      "status": "converged",
+      "cells": 105487,
+      "wall_s": 805.9,
+      "iters": 867,
+      "rms_p": -10.34503164,
+      "CL_spread100": 7.022188292608452e-05,
+      "CD_spread100": 9.975107415245146e-06,
+      "continuation_segments": 1,
+      "CL_rel_to_R400": 4.84619423839269e-05,
+      "CD_rel_to_R400": 5.084963638409031e-05
+    },
+    "R200": {
+      "CL": 0.2487505172,
+      "CD": 0.1305359757,
+      "LD": 1.9056089010410637,
+      "status": "converged",
+      "cells": 129385,
+      "wall_s": 796.6,
+      "iters": 866,
+      "rms_p": -10.40906938,
+      "CL_spread100": 7.070581316753824e-05,
+      "CD_spread100": 1.004929658505364e-05,
+      "continuation_segments": 1,
+      "CL_rel_to_R400": -0.00034552889507116996,
+      "CD_rel_to_R400": -1.4025821696313178e-05
+    },
+    "R400": {
+      "CL": 0.2488364974,
+      "CD": 0.1305378066,
+      "LD": 1.9062408345997135,
+      "status": "converged",
+      "cells": 227013,
+      "wall_s": 1329.5,
+      "iters": 866,
+      "rms_p": -10.50304092,
+      "CL_spread100": 7.043625583566805e-05,
+      "CD_spread100": 9.933481285666182e-06,
+      "continuation_segments": 1,
+      "CL_rel_to_R400": 0.0,
+      "CD_rel_to_R400": 0.0
+    }
+  }
+}

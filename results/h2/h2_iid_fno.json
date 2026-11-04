@@ -1,0 +1,267 @@
+{
+ "model": "fno",
+ "utc": "2026-10-13T06:14:49.037553+00:00",
+ "metric": "M = diag(span^2)",
+ "objective": "L/D",
+ "protocol": "experiment_protocol_v1.md \u00a74 (i.i.d. part)",
+ "splits": {
+  "cal": {
+   "n": 128,
+   "n_with_adjoint": 128
+  },
+  "test": {
+   "n": 128,
+   "n_with_adjoint": 128
+  }
+ },
+ "preregistered_split": [
+  {
+   "alpha": 0.1,
+   "n_cal": 128,
+   "n_test": 128,
+   "qhat": 2.3872605296085525,
+   "coverage": 0.890625,
+   "coverage_CI95": [
+    0.8232994118653039,
+    0.9388986321100042
+   ],
+   "target": 0.9,
+   "additional": {
+    "median_radius_over_grad_norm": 0.1408230580359479,
+    "frac_steps_certified": 1.0,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_all_steps_true_ascent": 1.0
+   }
+  },
+  {
+   "alpha": 0.2,
+   "n_cal": 128,
+   "n_test": 128,
+   "qhat": 1.6323128280749155,
+   "coverage": 0.6875,
+   "coverage_CI95": [
+    0.5996185457141882,
+    0.7664738571196568
+   ],
+   "target": 0.8,
+   "additional": {
+    "median_radius_over_grad_norm": 0.09628914869987326,
+    "frac_steps_certified": 1.0,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_all_steps_true_ascent": 1.0
+   }
+  }
+ ],
+ "resamples": [
+  {
+   "seed": 0,
+   "results": [
+    {
+     "alpha": 0.1,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 2.4466742983369345,
+     "coverage": 0.9140625,
+     "coverage_CI95": [
+      0.8514365078654029,
+      0.9563176931226512
+     ],
+     "target": 0.9,
+     "additional": {
+      "median_radius_over_grad_norm": 0.14616503293461036,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    },
+    {
+     "alpha": 0.2,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 1.9013556727877217,
+     "coverage": 0.8125,
+     "coverage_CI95": [
+      0.7339835974998978,
+      0.8760151009741204
+     ],
+     "target": 0.8,
+     "additional": {
+      "median_radius_over_grad_norm": 0.11358753991993503,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "results": [
+    {
+     "alpha": 0.1,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 2.37082557204791,
+     "coverage": 0.8828125,
+     "coverage_CI95": [
+      0.8140910983080725,
+      0.9329059181181221
+     ],
+     "target": 0.9,
+     "additional": {
+      "median_radius_over_grad_norm": 0.14287262956471397,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    },
+    {
+     "alpha": 0.2,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 1.900164407710252,
+     "coverage": 0.8046875,
+     "coverage_CI95": [
+      0.7253279819315551,
+      0.8694354476342538
+     ],
+     "target": 0.8,
+     "additional": {
+      "median_radius_over_grad_norm": 0.11450926155665525,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "results": [
+    {
+     "alpha": 0.1,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 2.294184122425045,
+     "coverage": 0.875,
+     "coverage_CI95": [
+      0.8049562181387006,
+      0.9268339218286344
+     ],
+     "target": 0.9,
+     "additional": {
+      "median_radius_over_grad_norm": 0.13247213108137956,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    },
+    {
+     "alpha": 0.2,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 1.7310757781619428,
+     "coverage": 0.71875,
+     "coverage_CI95": [
+      0.6324768061351951,
+      0.7946129348684059
+     ],
+     "target": 0.8,
+     "additional": {
+      "median_radius_over_grad_norm": 0.09995679734461341,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "results": [
+    {
+     "alpha": 0.1,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 2.264765530592221,
+     "coverage": 0.859375,
+     "coverage_CI95": [
+      0.7868852306125594,
+      0.9144767702780331
+     ],
+     "target": 0.9,
+     "additional": {
+      "median_radius_over_grad_norm": 0.13996652107805974,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    },
+    {
+     "alpha": 0.2,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 1.7781899538351502,
+     "coverage": 0.7578125,
+     "coverage_CI95": [
+      0.6741888755525784,
+      0.8291319048396787
+     ],
+     "target": 0.8,
+     "additional": {
+      "median_radius_over_grad_norm": 0.10989528862582934,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "results": [
+    {
+     "alpha": 0.1,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 2.6247879890931483,
+     "coverage": 0.9375,
+     "coverage_CI95": [
+      0.880563216606146,
+      0.9726333151136292
+     ],
+     "target": 0.9,
+     "additional": {
+      "median_radius_over_grad_norm": 0.15520492784379894,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    },
+    {
+     "alpha": 0.2,
+     "n_cal": 128,
+     "n_test": 128,
+     "qhat": 2.0700229442853844,
+     "coverage": 0.875,
+     "coverage_CI95": [
+      0.8049562181387006,
+      0.9268339218286344
+     ],
+     "target": 0.8,
+     "additional": {
+      "median_radius_over_grad_norm": 0.12240141414767036,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    }
+   ]
+  }
+ ],
+ "resample_mean_coverage": {
+  "0.1": 0.89375,
+  "0.2": 0.79375
+ },
+ "trajectory_coverage": "pending: needs CFD-verified optimiser trajectories (H3 runs); H2 falsification test not yet evaluable"
+}

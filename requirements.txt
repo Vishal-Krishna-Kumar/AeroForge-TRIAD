@@ -1,0 +1,9 @@
+# Python packages used by src/, scripts/ and analysis/.
+# External tools for regenerating CFD data: SU2 8.5.0 (SU2_CFD, SU2_CFD_AD) and Gmsh.
+numpy
+scipy
+matplotlib
+torch
+scikit-learn
+meshio
+gmsh

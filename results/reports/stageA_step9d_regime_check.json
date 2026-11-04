@@ -1,0 +1,65 @@
+{
+  "settings": {
+    "dt": 0.05,
+    "t_end": 30.0,
+    "inner": 8
+  },
+  "cases": {
+    "R1_naca4412_Re2000_a4_Pmedium": {
+      "status": "unsteady",
+      "cells": 105487,
+      "wall_s": 4675.7,
+      "regime": {
+        "t_end": 29.95,
+        "window": 15.0,
+        "CL_mean": 0.2468632303654485,
+        "CD_mean": 0.09928946425282391,
+        "CL_total_rel_p2p": 0.17204421467355302,
+        "CL_osc_rel_p2p": 0.12371396217522818,
+        "CL_osc_abs_p2p": 0.030540428343885734,
+        "classifier": "v2",
+        "dominant_freq_chord": 1.1960132890365447,
+        "rms_ratio_second_over_first_half": 1.1492433721968578,
+        "regime": "unsteady",
+        "strouhal_chord": 1.1960132890365447
+      }
+    },
+    "R2_naca4412_Re2000_a4_Pcoarse": {
+      "status": "unsteady",
+      "cells": 49146,
+      "wall_s": 2330.6,
+      "regime": {
+        "t_end": 29.95,
+        "window": 15.0,
+        "CL_mean": 0.23463151160398668,
+        "CD_mean": 0.09811067777219268,
+        "CL_total_rel_p2p": 0.19950767175300682,
+        "CL_osc_rel_p2p": 0.09973175588522534,
+        "CL_osc_abs_p2p": 0.023400212638270218,
+        "classifier": "v2",
+        "dominant_freq_chord": 1.1295681063122922,
+        "rms_ratio_second_over_first_half": 1.4406753352676598,
+        "regime": "unsteady",
+        "strouhal_chord": 1.1295681063122922
+      }
+    },
+    "R3_naca0012_Re1000_a4_Pcoarse": {
+      "status": "not_settled",
+      "cells": 49216,
+      "wall_s": 2214.1,
+      "regime": {
+        "t_end": 29.95,
+        "window": 15.0,
+        "CL_mean": 0.20547439907408638,
+        "CD_mean": 0.12447998313621263,
+        "CL_total_rel_p2p": 0.002974049822039775,
+        "CL_osc_rel_p2p": 0.00014223175448369063,
+        "CL_osc_abs_p2p": 2.9224984281789324e-05,
+        "classifier": "v2",
+        "dominant_freq_chord": 0.3322259136212624,
+        "rms_ratio_second_over_first_half": 0.6773821959234739,
+        "regime": "not_settled"
+      }
+    }
+  }
+}

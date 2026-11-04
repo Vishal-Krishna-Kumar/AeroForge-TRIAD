@@ -1,0 +1,345 @@
+{
+ "inputs": {
+  "h1_v1_fno": {
+   "path": "results/reports/h1_test_metrics_fno.json",
+   "sha256": "3bff824e0bb3676f8e076b5c5104c23c978d44ff4ba42b017fdad88c11603043"
+  },
+  "h1_v1_mlp": {
+   "path": "results/reports/h1_test_metrics_mlp.json",
+   "sha256": "7eb8ea157b5b8f0e9c8af64afd9a78c69f732f9cfd8d03ea9a6a2a8ec8885ff3"
+  },
+  "h1_v2_fno": {
+   "path": "results/reports_v2/h1v2_test_metrics_fno.json",
+   "sha256": "035bc6a9ae80e061185314f7e973105bc32306cac8c4287c527233f9268fc459"
+  },
+  "h1_v2_mlp": {
+   "path": "results/reports_v2/h1v2_test_metrics_mlp.json",
+   "sha256": "a715656dfbbf0b408f44da876ca85dd8793d42c574fb203479a78dbee8b1663b"
+  },
+  "h2_v2_fno": {
+   "path": "results/h2_v2/h2v2_iid_fno.json",
+   "sha256": "1620f1af4661c45bda333ccc891f7742fe318d77b740803705616646bf854c1e"
+  },
+  "h2_v2_mlp": {
+   "path": "results/h2_v2/h2v2_iid_mlp.json",
+   "sha256": "5bc509056a4ee04cc9c2691be82607cdf2c8791d10ed0045015d767f95469bef"
+  },
+  "s2_main": {
+   "path": "results/v2_traj/s2_h5_h6_h7.json",
+   "sha256": "c4b82adcbf1a966aee7720d0dde4069033c6ac7d5da705b71b7cd5e9f2f9350e"
+  },
+  "s2_base": {
+   "path": "results/v2_traj/s2_baselines_descriptive.json",
+   "sha256": "a056e3f5f04ca8220111ba537e80ebc02eb434eb114d005c301156630e1bf0c6"
+  },
+  "s2_cert": {
+   "path": "results/v2_traj/s2_certified_fraction_descriptive.json",
+   "sha256": "45653bb8788b8cd157c80eda2412506a43404d3240ca42517217e5ccec263729"
+  }
+ },
+ "h1": {
+  "V1 FNO": {
+   "median_rel_err_LD": 0.006583899744667027,
+   "median_rel_grad_err_LD": 0.05785051516581761,
+   "median_cos": 0.9992145751961892,
+   "frac_cos_below_0.98": 0.015625,
+   "n_grad_points": 128
+  },
+  "V1 MLP": {
+   "median_rel_err_LD": 0.0032549612935776915,
+   "median_rel_grad_err_LD": 0.012474904540994007,
+   "median_cos": 0.999963537138298,
+   "frac_cos_below_0.98": 0.0,
+   "n_grad_points": 128
+  },
+  "V2 FNO": {
+   "median_rel_err_LD": 0.016515332489536218,
+   "median_rel_grad_err_LD": 0.09048236292780988,
+   "median_cos": 0.9989659012400951,
+   "frac_cos_below_0.98": 0.015748031496062992,
+   "n_grad_points": 127
+  },
+  "V2 MLP": {
+   "median_rel_err_LD": 0.012234386211864028,
+   "median_rel_grad_err_LD": 0.03128276258493187,
+   "median_cos": 0.9996841421049741,
+   "frac_cos_below_0.98": 0.0,
+   "n_grad_points": 127
+  }
+ },
+ "whole_run": {
+  "0.1": {
+   "i.i.d. split conformal": {
+    "whole_run": 0.2,
+    "CI95": [
+     0.05733399705003277,
+     0.4366140029966683
+    ],
+    "per_iterate": 0.6533333333333334,
+    "threshold": 2.4058181360603577
+   },
+   "pooled trajectory points": {
+    "whole_run": 0.6,
+    "CI95": [
+     0.36054258730748967,
+     0.8088099392746928
+    ],
+    "per_iterate": 0.8333333333333333,
+    "threshold": 4.328876742412329
+   },
+   "run-max (Thm 1)": {
+    "whole_run": 1.0,
+    "CI95": [
+     0.8315665290169146,
+     1.0
+    ],
+    "per_iterate": 1.0,
+    "threshold": 8.691480141560918
+   },
+   "Gaussian ensemble UQ*": {
+    "whole_run": 0.0,
+    "CI95": [
+     0.0,
+     0.1684334709830853
+    ],
+    "per_iterate": 0.39666666666666667,
+    "threshold": 1.2345017464899495
+   },
+   "Bonferroni α/15*": {
+    "whole_run": 1.0,
+    "CI95": [
+     0.8315665290169146,
+     1.0
+    ],
+    "per_iterate": 1.0,
+    "threshold": 9.413084896622347
+   },
+   "weighted conformal*": {
+    "whole_run": 0.25,
+    "CI95": [
+     0.08657146910143461,
+     0.49104587170795744
+    ],
+    "per_iterate": 0.72,
+    "threshold": 3.0028419518498204
+   },
+   "ACI γ=0.01*": {
+    "whole_run": 0.2,
+    "CI95": [
+     0.05733399705003277,
+     0.4366140029966683
+    ],
+    "per_iterate": 0.6933333333333334,
+    "threshold": 2.4058181360603577
+   },
+   "ACI γ=0.05*": {
+    "whole_run": 0.1,
+    "CI95": [
+     0.012348527170294808,
+     0.31698271401908235
+    ],
+    "per_iterate": 0.8366666666666666,
+    "threshold": 2.4058181360603577
+   }
+  },
+  "0.2": {
+   "i.i.d. split conformal": {
+    "whole_run": 0.05,
+    "CI95": [
+     0.0012650894979498038,
+     0.24873276277202777
+    ],
+    "per_iterate": 0.5466666666666667,
+    "threshold": 1.8080111573928872
+   },
+   "pooled trajectory points": {
+    "whole_run": 0.35,
+    "CI95": [
+     0.15390920478454118,
+     0.5921885345328282
+    ],
+    "per_iterate": 0.7100000000000001,
+    "threshold": 3.056031790534747
+   },
+   "run-max (Thm 1)": {
+    "whole_run": 0.85,
+    "CI95": [
+     0.621073173454686,
+     0.9679290628145363
+    ],
+    "per_iterate": 0.9866666666666667,
+    "threshold": 7.655041613017609
+   },
+   "Gaussian ensemble UQ*": {
+    "whole_run": 0.0,
+    "CI95": [
+     0.0,
+     0.1684334709830853
+    ],
+    "per_iterate": 0.3466666666666666,
+    "threshold": 1.1430323038117345
+   },
+   "Bonferroni α/15*": {
+    "whole_run": 0.7,
+    "CI95": [
+     0.45721081772371086,
+     0.8810684095942722
+    ],
+    "per_iterate": 0.8866666666666667,
+    "threshold": 5.03114033942274
+   },
+   "weighted conformal*": {
+    "whole_run": 0.1,
+    "CI95": [
+     0.012348527170294808,
+     0.31698271401908235
+    ],
+    "per_iterate": 0.5900000000000001,
+    "threshold": 2.04842103206713
+   },
+   "ACI γ=0.01*": {
+    "whole_run": 0.0,
+    "CI95": [
+     0.0,
+     0.1684334709830853
+    ],
+    "per_iterate": 0.5466666666666667,
+    "threshold": 1.8080111573928872
+   },
+   "ACI γ=0.05*": {
+    "whole_run": 0.0,
+    "CI95": [
+     0.0,
+     0.1684334709830853
+    ],
+    "per_iterate": 0.6866666666666668,
+    "threshold": 1.8080111573928872
+   }
+  }
+ },
+ "certified": {
+  "0.1": {
+   "i.i.d.": {
+    "qhat": 2.4058181360603577,
+    "frac_steps_certified": 0.88,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_certified_steps_covered": 0.7272727272727273,
+    "frac_runs_all_steps_certified": 0.75,
+    "median_steps_certified_per_run": 15.0,
+    "median_radius_over_grad_norm": 0.3015749538329211
+   },
+   "pooled": {
+    "qhat": 4.328876742412329,
+    "frac_steps_certified": 0.7033333333333334,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_certified_steps_covered": 0.966824644549763,
+    "frac_runs_all_steps_certified": 0.3,
+    "median_steps_certified_per_run": 12.5,
+    "median_radius_over_grad_norm": 0.5426348667730934
+   },
+   "run-max": {
+    "qhat": 8.691480141560918,
+    "frac_steps_certified": 0.44666666666666666,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_certified_steps_covered": 1.0,
+    "frac_runs_all_steps_certified": 0.0,
+    "median_steps_certified_per_run": 6.0,
+    "median_radius_over_grad_norm": 1.0894974491809322
+   },
+   "random iterate": {
+    "qhat": 4.639375766816392,
+    "frac_steps_certified": 0.68,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_certified_steps_covered": 0.9803921568627451,
+    "frac_runs_all_steps_certified": 0.3,
+    "median_steps_certified_per_run": 12.0,
+    "median_radius_over_grad_norm": 0.5815566487425152
+   }
+  },
+  "0.2": {
+   "i.i.d.": {
+    "qhat": 1.8080111573928872,
+    "frac_steps_certified": 0.9133333333333333,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_certified_steps_covered": 0.5985401459854015,
+    "frac_runs_all_steps_certified": 0.85,
+    "median_steps_certified_per_run": 15.0,
+    "median_radius_over_grad_norm": 0.22663844500442604
+   },
+   "pooled": {
+    "qhat": 3.056031790534747,
+    "frac_steps_certified": 0.83,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_certified_steps_covered": 0.8032128514056225,
+    "frac_runs_all_steps_certified": 0.45,
+    "median_steps_certified_per_run": 14.0,
+    "median_radius_over_grad_norm": 0.38308076255990686
+   },
+   "run-max": {
+    "qhat": 7.655041613017609,
+    "frac_steps_certified": 0.5133333333333333,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_certified_steps_covered": 1.0,
+    "frac_runs_all_steps_certified": 0.0,
+    "median_steps_certified_per_run": 7.5,
+    "median_radius_over_grad_norm": 0.9595774453738498
+   },
+   "random iterate": {
+    "qhat": 3.3330826427904636,
+    "frac_steps_certified": 0.8066666666666666,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_certified_steps_covered": 0.8347107438016529,
+    "frac_runs_all_steps_certified": 0.4,
+    "median_steps_certified_per_run": 14.0,
+    "median_radius_over_grad_norm": 0.41780973759174733
+   }
+  },
+  "frac_all_steps_true_ascent": 0.9966666666666667
+ },
+ "h2v2": {
+  "FNO": {
+   "0.1": {
+    "coverage": 0.905511811023622,
+    "coverage_CI95": [
+     0.8407646642887722,
+     0.9502178566684097
+    ],
+    "qhat": 2.405818278216685,
+    "n_cal": 256,
+    "n_test": 127
+   },
+   "0.2": {
+    "coverage": 0.8110236220472441,
+    "coverage_CI95": [
+     0.7319938540684687,
+     0.8750058552358885
+    ],
+    "qhat": 1.8080119534461512,
+    "n_cal": 256,
+    "n_test": 127
+   }
+  },
+  "MLP": {
+   "0.1": {
+    "coverage": 0.8582677165354331,
+    "coverage_CI95": [
+     0.7852802485563464,
+     0.9137850331308228
+    ],
+    "qhat": 2.8730130599431614,
+    "n_cal": 256,
+    "n_test": 127
+   },
+   "0.2": {
+    "coverage": 0.8031496062992126,
+    "coverage_CI95": [
+     0.7232757838362941,
+     0.8683715494350203
+    ],
+    "qhat": 2.4618536083091294,
+    "n_cal": 256,
+    "n_test": 127
+   }
+  }
+ }
+}

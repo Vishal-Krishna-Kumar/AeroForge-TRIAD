@@ -1,0 +1,113 @@
+{
+ "utc": "2026-10-19T08:30:09.272187+00:00",
+ "rate_usd_h": 0.57,
+ "cap_usd": 12.0,
+ "spent_before_usd": 0.18,
+ "slots": 16,
+ "cal_cases": [
+  {
+   "status": "converged",
+   "CL": 1.013802008,
+   "CD": 0.008798780035,
+   "iters": 784,
+   "solve_s": 69.3,
+   "grad_ok": true,
+   "adj_s": 637.4,
+   "post": {
+    "npz": "D3_cal_0003.npz",
+    "npz_sha256": "84ed014bc6dea9a5d01206bbb07caf88e060e79ba3a0bba0c16091a0c8be3430",
+    "surface_gap": 2.1513053282151435e-08
+   },
+   "wall_s": 708.0
+  },
+  {
+   "status": "converged",
+   "CL": 0.5097365601,
+   "CD": 0.0006418382879,
+   "iters": 859,
+   "solve_s": 103.1,
+   "grad_ok": true,
+   "adj_s": 645.4,
+   "post": {
+    "npz": "D3_cal_0000.npz",
+    "npz_sha256": "94171ad72d04051e41f7bd6809b05d98862ed30b2c964d3b408967893263e416",
+    "surface_gap": 3.815190751035433e-08
+   },
+   "wall_s": 749.7
+  },
+  {
+   "status": "converged",
+   "CL": 0.7643348996,
+   "CD": 0.01203549379,
+   "iters": 849,
+   "solve_s": 118.5,
+   "grad_ok": true,
+   "adj_s": 642.5,
+   "post": {
+    "npz": "D3_cal_0001.npz",
+    "npz_sha256": "c000736e5b321f6ab048834eb1a11fbabfd544bca64eaa7ba59b347240349dd6",
+    "surface_gap": 3.041014174921471e-08
+   },
+   "wall_s": 762.6
+  },
+  {
+   "status": "converged",
+   "CL": 0.7401041062,
+   "CD": 0.01072349278,
+   "iters": 1175,
+   "solve_s": 125.4,
+   "grad_ok": true,
+   "adj_s": 677.9,
+   "post": {
+    "npz": "D3_cal_0005.npz",
+    "npz_sha256": "c97ef78600a3bdc4be4dc512cd8e9ecae9568d62d8d951fedf78f905dc766e73",
+    "surface_gap": 1.5836853280814177e-08
+   },
+   "wall_s": 804.6
+  },
+  {
+   "status": "converged",
+   "CL": 0.3542729932,
+   "CD": -0.001303346799,
+   "iters": 812,
+   "solve_s": 67.8,
+   "grad_ok": true,
+   "adj_s": 747.4,
+   "post": {
+    "npz": "D3_cal_0004.npz",
+    "npz_sha256": "595b8acd5675b8e333e14274d269c564f85e98195a1763e9a054c246f4b795cc",
+    "surface_gap": 3.253658330925047e-08
+   },
+   "wall_s": 816.8
+  },
+  {
+   "status": "converged",
+   "CL": 0.1068546925,
+   "CD": -0.001667242861,
+   "iters": 887,
+   "solve_s": 101.1,
+   "grad_ok": true,
+   "adj_s": 853.2,
+   "post": {
+    "npz": "D3_cal_0002.npz",
+    "npz_sha256": "ed22f91b05fdf22ab1da332d828b91b0ec4cd991104b05781a9498c9184883ab",
+    "surface_gap": 1.3896162761785418e-08
+   },
+   "wall_s": 955.7
+  }
+ ],
+ "n_ok": 6,
+ "check_pass": true,
+ "primal_s": 97.53333333333335,
+ "case_with_adjoint_s": 799.5666666666666,
+ "phase0_h": 0.5603533852777778,
+ "phase1_h": 4.438771241830065,
+ "phase3_h": 8.338888888888889,
+ "projected_total_usd": 7.782667704118136,
+ "hard_deadline_utc": "2026-10-19T18:01:00+00:00",
+ "phase1_deadline_candidate_utc": "2026-10-19T14:24:38.636893+00:00",
+ "fits_hard_deadline": true,
+ "phase1_deadline_utc": "2026-10-19T14:24:38.636893+00:00",
+ "stop_reasons": [],
+ "decision": "PROCEED"
+}

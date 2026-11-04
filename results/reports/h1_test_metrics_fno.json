@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "train_hash": "c24647a25ba625476d337820d3985417bf869321c8abf98a0d3d7f75767f0741",
+  "test_hash": "d41641f66bc52b830ae99148f0f6259342a9cfdff11958226b3ebe5815d91a5e",
+  "cal_hash": "30437d6e5c1b2ea792815c421f0dfa4e3436039d81009279723df9151eb113cd",
+  "n_fit": 448,
+  "n_val": 64,
+  "n_test": 128,
+  "args": {
+   "model": "fno",
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "epochs": 500,
+   "w_sobolev": 0.0,
+   "snapshot_seed": 0,
+   "frames": 250,
+   "out": "checkpoints/v1/fno"
+  },
+  "torch": "2.11.0+cu130",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "load_s": 2.5
+ },
+ "members": [
+  {
+   "median_rel_err_CL": 0.007456666556063183,
+   "median_rel_err_CD": 0.0003916332534135179,
+   "median_rel_err_LD": 0.007486431513587485,
+   "median_rel_grad_err_LD": 0.0807034329684122,
+   "frac_cos_below_0.98": 0.03125,
+   "median_cos": 0.9986303430415715,
+   "n_grad_points": 128
+  },
+  {
+   "median_rel_err_CL": 0.006472666864863463,
+   "median_rel_err_CD": 0.0003715856442195682,
+   "median_rel_err_LD": 0.006389701239227937,
+   "median_rel_grad_err_LD": 0.06453067294345768,
+   "frac_cos_below_0.98": 0.015625,
+   "median_cos": 0.9989112655585168,
+   "n_grad_points": 128
+  },
+  {
+   "median_rel_err_CL": 0.00877886717509527,
+   "median_rel_err_CD": 0.000364668579865062,
+   "median_rel_err_LD": 0.008335303995542914,
+   "median_rel_grad_err_LD": 0.08453182576413644,
+   "frac_cos_below_0.98": 0.0234375,
+   "median_cos": 0.9985562687256031,
+   "n_grad_points": 128
+  },
+  {
+   "median_rel_err_CL": 0.009285933693040187,
+   "median_rel_err_CD": 0.00038284125323631113,
+   "median_rel_err_LD": 0.008906111795866548,
+   "median_rel_grad_err_LD": 0.07561676614621471,
+   "frac_cos_below_0.98": 0.03125,
+   "median_cos": 0.9986114494615546,
+   "n_grad_points": 128
+  },
+  {
+   "median_rel_err_CL": 0.007863396758475133,
+   "median_rel_err_CD": 0.0003277675922218464,
+   "median_rel_err_LD": 0.0077398705513665065,
+   "median_rel_grad_err_LD": 0.07514380236760625,
+   "frac_cos_below_0.98": 0.015625,
+   "median_cos": 0.9987431794329039,
+   "n_grad_points": 128
+  }
+ ],
+ "ensemble": {
+  "median_rel_err_CL": 0.006955738138274474,
+  "median_rel_err_CD": 0.0003245593914648088,
+  "median_rel_err_LD": 0.006583899744667027,
+  "median_rel_grad_err_LD": 0.05785051516581761,
+  "frac_cos_below_0.98": 0.015625,
+  "median_cos": 0.9992145751961892,
+  "n_grad_points": 128
+ },
+ "H1_supported": false,
+ "H1_falsified": true
+}

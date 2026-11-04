@@ -1,0 +1,9 @@
+{
+ "ms_per_case": 2.1150110781250397,
+ "ms_per_batch": 270.7214180000051,
+ "batch": 128,
+ "device": "A100",
+ "repeats": 20,
+ "what": "predict_coefficients (SDF grid + FNO forward), FNO seed 0, test designs",
+ "utc": "2026-10-13T05:50:15.712098"
+}

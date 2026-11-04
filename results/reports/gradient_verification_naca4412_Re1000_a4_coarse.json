@@ -1,0 +1,39 @@
+{
+  "case": "V6_P_naca4412_Re1000_a4_coarse",
+  "theta0": [
+    0.04,
+    0.4,
+    0.12,
+    4.0
+  ],
+  "adjoint": {
+    "theta0": [
+      0.04,
+      0.4,
+      0.12,
+      4.0
+    ],
+    "dv": [
+      "m",
+      "p",
+      "t",
+      "aoa_deg"
+    ],
+    "surface_gap": 4.4541170997368176e-07,
+    "rbf_radius": 0.5,
+    "objectives": {
+      "CL": {
+        "run": {
+          "returncode": 0,
+          "wall_s": 410.1
+        }
+      },
+      "CD": {
+        "run": {
+          "returncode": 0,
+          "wall_s": 332.6
+        }
+      }
+    }
+  }
+}

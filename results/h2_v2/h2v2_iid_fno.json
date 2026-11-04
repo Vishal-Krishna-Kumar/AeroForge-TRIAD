@@ -1,0 +1,268 @@
+{
+ "model": "fno",
+ "utc": "2026-10-14T22:38:42.791689+00:00",
+ "metric": "M = diag(span^2)",
+ "objective": "L/D",
+ "protocol": "experiment_protocol_v2.md \u00a73 (H2\u2032, i.i.d.)",
+ "n_fit": 245,
+ "splits": {
+  "cal": {
+   "n": 256,
+   "n_with_adjoint": 256
+  },
+  "test": {
+   "n": 127,
+   "n_with_adjoint": 127
+  }
+ },
+ "preregistered_split": [
+  {
+   "alpha": 0.1,
+   "n_cal": 256,
+   "n_test": 127,
+   "qhat": 2.405818278216685,
+   "coverage": 0.905511811023622,
+   "coverage_CI95": [
+    0.8407646642887722,
+    0.9502178566684097
+   ],
+   "target": 0.9,
+   "additional": {
+    "median_radius_over_grad_norm": 0.21444831895514205,
+    "frac_steps_certified": 0.9921259842519685,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_all_steps_true_ascent": 1.0
+   }
+  },
+  {
+   "alpha": 0.2,
+   "n_cal": 256,
+   "n_test": 127,
+   "qhat": 1.8080119534461512,
+   "coverage": 0.8110236220472441,
+   "coverage_CI95": [
+    0.7319938540684687,
+    0.8750058552358885
+   ],
+   "target": 0.8,
+   "additional": {
+    "median_radius_over_grad_norm": 0.16116143416897277,
+    "frac_steps_certified": 1.0,
+    "frac_certified_steps_true_ascent": 1.0,
+    "frac_all_steps_true_ascent": 1.0
+   }
+  }
+ ],
+ "resamples": [
+  {
+   "seed": 0,
+   "results": [
+    {
+     "alpha": 0.1,
+     "n_cal": 256,
+     "n_test": 127,
+     "qhat": 2.405818278216685,
+     "coverage": 0.905511811023622,
+     "coverage_CI95": [
+      0.8407646642887722,
+      0.9502178566684097
+     ],
+     "target": 0.9,
+     "additional": {
+      "median_radius_over_grad_norm": 0.21444831895514205,
+      "frac_steps_certified": 0.9921259842519685,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    },
+    {
+     "alpha": 0.2,
+     "n_cal": 256,
+     "n_test": 127,
+     "qhat": 1.8178915528608808,
+     "coverage": 0.8267716535433071,
+     "coverage_CI95": [
+      0.7495601564887321,
+      0.8881383725006993
+     ],
+     "target": 0.8,
+     "additional": {
+      "median_radius_over_grad_norm": 0.16204207569772922,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "results": [
+    {
+     "alpha": 0.1,
+     "n_cal": 256,
+     "n_test": 127,
+     "qhat": 2.427413566536203,
+     "coverage": 0.9212598425196851,
+     "coverage_CI95": [
+      0.8599603070921814,
+      0.9615954049370246
+     ],
+     "target": 0.9,
+     "additional": {
+      "median_radius_over_grad_norm": 0.21448150824046594,
+      "frac_steps_certified": 0.9921259842519685,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    },
+    {
+     "alpha": 0.2,
+     "n_cal": 256,
+     "n_test": 127,
+     "qhat": 1.8379607072329978,
+     "coverage": 0.8503937007874016,
+     "coverage_CI95": [
+      0.7762697359216622,
+      0.9074585215291423
+     ],
+     "target": 0.8,
+     "additional": {
+      "median_radius_over_grad_norm": 0.1623986081352271,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "results": [
+    {
+     "alpha": 0.1,
+     "n_cal": 256,
+     "n_test": 127,
+     "qhat": 2.363916011547461,
+     "coverage": 0.889763779527559,
+     "coverage_CI95": [
+      0.8219622452653403,
+      0.9384066835898242
+     ],
+     "target": 0.9,
+     "additional": {
+      "median_radius_over_grad_norm": 0.19741949709744225,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    },
+    {
+     "alpha": 0.2,
+     "n_cal": 256,
+     "n_test": 127,
+     "qhat": 1.797188942175855,
+     "coverage": 0.7952755905511811,
+     "coverage_CI95": [
+      0.7145985451269055,
+      0.8616946865724942
+     ],
+     "target": 0.8,
+     "additional": {
+      "median_radius_over_grad_norm": 0.15008999280020238,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "results": [
+    {
+     "alpha": 0.1,
+     "n_cal": 256,
+     "n_test": 127,
+     "qhat": 2.361966435221216,
+     "coverage": 0.8818897637795275,
+     "coverage_CI95": [
+      0.8126859812728435,
+      0.932365082768768
+     ],
+     "target": 0.9,
+     "additional": {
+      "median_radius_over_grad_norm": 0.20915235688333025,
+      "frac_steps_certified": 0.9921259842519685,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    },
+    {
+     "alpha": 0.2,
+     "n_cal": 256,
+     "n_test": 127,
+     "qhat": 1.8080119534461512,
+     "coverage": 0.8110236220472441,
+     "coverage_CI95": [
+      0.7319938540684687,
+      0.8750058552358885
+     ],
+     "target": 0.8,
+     "additional": {
+      "median_radius_over_grad_norm": 0.16009963380410183,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "results": [
+    {
+     "alpha": 0.1,
+     "n_cal": 256,
+     "n_test": 127,
+     "qhat": 2.361966435221216,
+     "coverage": 0.8818897637795275,
+     "coverage_CI95": [
+      0.8126859812728435,
+      0.932365082768768
+     ],
+     "target": 0.9,
+     "additional": {
+      "median_radius_over_grad_norm": 0.1933167640570883,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    },
+    {
+     "alpha": 0.2,
+     "n_cal": 256,
+     "n_test": 127,
+     "qhat": 1.797188942175855,
+     "coverage": 0.7952755905511811,
+     "coverage_CI95": [
+      0.7145985451269055,
+      0.8616946865724942
+     ],
+     "target": 0.8,
+     "additional": {
+      "median_radius_over_grad_norm": 0.14709216249640683,
+      "frac_steps_certified": 1.0,
+      "frac_certified_steps_true_ascent": 1.0,
+      "frac_all_steps_true_ascent": 1.0
+     }
+    }
+   ]
+  }
+ ],
+ "resample_mean_coverage": {
+  "0.1": 0.8960629921259843,
+  "0.2": 0.815748031496063
+ },
+ "trajectory_coverage": "see H5-H7 (scripts/run_s2_analysis.py, pod session 2)"
+}

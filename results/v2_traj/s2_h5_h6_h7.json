@@ -1,0 +1,157 @@
+{
+ "n_cal_iid": 256,
+ "n_traj_points": 600,
+ "n_traj_missing": 0,
+ "raw_gradient_fallback": [
+  "T2_s37_t04"
+ ],
+ "runs_present": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39
+ ],
+ "design": "full 40x15",
+ "runs_incomplete": [],
+ "median_score_iid": 1.0767622212629964,
+ "median_score_traj": 1.4203280451082538,
+ "alphas": {
+  "0.1": {
+   "target": 0.9,
+   "H5_runmax": {
+    "qhat": 8.691480141560918,
+    "whole_run": 1.0,
+    "whole_run_CI95": [
+     0.8315665290169146,
+     1.0
+    ],
+    "per_iterate": 1.0,
+    "per_iterate_CI95": [
+     1.0,
+     1.0
+    ]
+   },
+   "H6_subsample": {
+    "qhat_median": 4.639375766816392,
+    "per_iterate_mean_over_draws": 0.8772833333333332
+   },
+   "H7_iid": {
+    "qhat": 2.4058181360603577,
+    "whole_run": 0.2,
+    "whole_run_CI95": [
+     0.05733399705003277,
+     0.4366140029966683
+    ],
+    "per_iterate": 0.6533333333333334,
+    "per_iterate_CI95": [
+     0.5,
+     0.8
+    ]
+   },
+   "pooled_baseline": {
+    "qhat": 4.328876742412329,
+    "whole_run": 0.6,
+    "whole_run_CI95": [
+     0.36054258730748967,
+     0.8088099392746928
+    ],
+    "per_iterate": 0.8333333333333333,
+    "per_iterate_CI95": [
+     0.7066666666666667,
+     0.9433333333333334
+    ]
+   },
+   "H5_supported": true,
+   "H6_supported": true,
+   "H7_replicated_at_alpha": true,
+   "descriptive_LOO_runmax_whole_run": 0.9
+  },
+  "0.2": {
+   "target": 0.8,
+   "H5_runmax": {
+    "qhat": 7.655041613017609,
+    "whole_run": 0.85,
+    "whole_run_CI95": [
+     0.621073173454686,
+     0.9679290628145363
+    ],
+    "per_iterate": 0.9866666666666667,
+    "per_iterate_CI95": [
+     0.97,
+     1.0
+    ]
+   },
+   "H6_subsample": {
+    "qhat_median": 3.3330826427904636,
+    "per_iterate_mean_over_draws": 0.74235
+   },
+   "H7_iid": {
+    "qhat": 1.8080111573928872,
+    "whole_run": 0.05,
+    "whole_run_CI95": [
+     0.0012650894979498038,
+     0.24873276277202777
+    ],
+    "per_iterate": 0.5466666666666667,
+    "per_iterate_CI95": [
+     0.3999166666666667,
+     0.6833333333333333
+    ]
+   },
+   "pooled_baseline": {
+    "qhat": 3.056031790534747,
+    "whole_run": 0.35,
+    "whole_run_CI95": [
+     0.15390920478454118,
+     0.5921885345328282
+    ],
+    "per_iterate": 0.7100000000000001,
+    "per_iterate_CI95": [
+     0.5633333333333334,
+     0.8433333333333334
+    ]
+   },
+   "H5_supported": true,
+   "H6_supported": false,
+   "H7_replicated_at_alpha": true,
+   "descriptive_LOO_runmax_whole_run": 0.8
+  }
+ },
+ "H7_replicated": true
+}

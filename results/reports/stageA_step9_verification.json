@@ -1,0 +1,193 @@
+{
+  "mesh_independence": {
+    "naca0012_Re1000_a4": {
+      "levels": {
+        "coarse": {
+          "CL": 0.2141786513,
+          "CD": 0.1260367395,
+          "LD": 1.6993350680894121,
+          "status": "converged",
+          "cells": 21480,
+          "wall_s": 63.2,
+          "iters": 327
+        },
+        "medium": {
+          "CL": 0.2080244002,
+          "CD": 0.1245197413,
+          "LD": 1.6706138161563944,
+          "status": "converged",
+          "cells": 46602,
+          "wall_s": 219.0,
+          "iters": 438
+        },
+        "fine": {
+          "CL": 0.205214677,
+          "CD": 0.124171145,
+          "LD": 1.6526760464357482,
+          "status": "converged",
+          "cells": 101414,
+          "wall_s": 631.1,
+          "iters": 587
+        }
+      },
+      "gci": {
+        "CL": {
+          "fine": 0.205214677,
+          "medium": 0.2080244002,
+          "coarse": 0.2141786513,
+          "observed_order_p": 1.9337227543451572,
+          "richardson_extrapolated": 0.20285424087966805,
+          "gci_fine_pct": 1.4377846621637882,
+          "gci_medium_pct": 3.106702456154914,
+          "asymptotic_ratio": 0.9864932998374295
+        },
+        "CD": {
+          "fine": 0.124171145,
+          "medium": 0.1245197413,
+          "coarse": 0.1260367395,
+          "observed_order_p": 3.626882422784511,
+          "richardson_extrapolated": 0.12406714022187214,
+          "gci_fine_pct": 0.1046990205815128,
+          "gci_medium_pct": 0.45434670980950287,
+          "asymptotic_ratio": 0.9972004736248195
+        },
+        "LD": {
+          "fine": 1.6526760464357482,
+          "medium": 1.6706138161563944,
+          "coarse": 1.6993350680894121,
+          "observed_order_p": 1.1609600794281794,
+          "richardson_extrapolated": 1.6228374862921813,
+          "gci_fine_pct": 2.2568367382039454,
+          "gci_medium_pct": 3.574758675686392,
+          "asymptotic_ratio": 0.989262767045758
+        }
+      }
+    },
+    "naca4412_Re2000_a4": {
+      "levels": {
+        "coarse": {
+          "CL": 0.2664147268,
+          "CD": 0.09764737879,
+          "LD": 2.728334647599197,
+          "status": "converged",
+          "cells": 21306,
+          "wall_s": 110.3,
+          "iters": 413
+        },
+        "medium": {
+          "CL": 0.2285578982,
+          "CD": 0.09567794225,
+          "LD": 2.388825395123922,
+          "status": "converged",
+          "cells": 46510,
+          "wall_s": 272.4,
+          "iters": 551
+        },
+        "fine": {
+          "CL": 0.2130257283,
+          "CD": 0.09450227219,
+          "LD": 2.2541863106921345,
+          "status": "converged",
+          "cells": 101757,
+          "wall_s": 731.9,
+          "iters": 708
+        }
+      },
+      "gci": {
+        "CL": {
+          "fine": 0.2130257283,
+          "medium": 0.2285578982,
+          "coarse": 0.2664147268,
+          "observed_order_p": 2.1972248842924813,
+          "richardson_extrapolated": 0.2022193681650311,
+          "gci_fine_pct": 6.340994712942896,
+          "gci_medium_pct": 14.404736306641057,
+          "asymptotic_ratio": 0.932042733931651
+        },
+        "CD": {
+          "fine": 0.09450227219,
+          "medium": 0.09567794225,
+          "coarse": 0.09764737879,
+          "observed_order_p": 1.272388726747899,
+          "richardson_extrapolated": 0.09276095389953709,
+          "gci_fine_pct": 2.30327569130023,
+          "gci_medium_pct": 3.810946757771269,
+          "asymptotic_ratio": 0.987712214201597
+        },
+        "LD": {
+          "fine": 2.2541863106921345,
+          "medium": 2.388825395123922,
+          "coarse": 2.728334647599197,
+          "observed_order_p": 2.2810925814176612,
+          "richardson_extrapolated": 2.165702549343425,
+          "gci_fine_pct": 4.90663531941714,
+          "gci_medium_pct": 11.675342944483065,
+          "asymptotic_ratio": 0.9436379549938588
+        }
+      }
+    }
+  },
+  "farfield_independence": {
+    "R25": {
+      "CL": 0.2149013915,
+      "CD": 0.1253063518,
+      "LD": 1.7150079657813486,
+      "status": "converged",
+      "cells": 26260,
+      "wall_s": 123.5,
+      "iters": 423,
+      "CD_rel_to_R100": 0.00902140925301852,
+      "CL_rel_to_R100": 0.04524349538350387
+    },
+    "R50": {
+      "CL": 0.2080244002,
+      "CD": 0.1245197413,
+      "LD": 1.6706138161563944,
+      "status": "converged",
+      "cells": 46602,
+      "wall_s": 208.6,
+      "iters": 438,
+      "CD_rel_to_R100": 0.0026872783503006713,
+      "CL_rel_to_R100": 0.011794989657406831
+    },
+    "R100": {
+      "CL": 0.2055993579,
+      "CD": 0.1241860189,
+      "LD": 1.6555757219784746,
+      "status": "converged",
+      "cells": 118220,
+      "wall_s": 660.8,
+      "iters": 561,
+      "CD_rel_to_R100": 0.0,
+      "CL_rel_to_R100": 0.0
+    }
+  },
+  "regime_pilot": {
+    "V3_naca0012_Re2000_a6": {
+      "status": "unsteady",
+      "t_end": 29.95,
+      "window": 15.0,
+      "CL_mean": 0.2663702460079734,
+      "CD_mean": 0.09705870901458472,
+      "CL_osc_rel_p2p": 0.0017965137871157812,
+      "CL_osc_abs_p2p": 0.0004785378194307466,
+      "CL_drift_rel": 0.002380509911464234,
+      "regime": "unsteady",
+      "strouhal_chord": 0.06644518272425248,
+      "wall_s": 1255.9
+    },
+    "V3_naca6412_Re2000_a6": {
+      "status": "unsteady",
+      "t_end": 29.95,
+      "window": 15.0,
+      "CL_mean": 0.4354907861362126,
+      "CD_mean": 0.1212021581538206,
+      "CL_osc_rel_p2p": 0.1963516672458475,
+      "CL_osc_abs_p2p": 0.08550934192805015,
+      "CL_drift_rel": 0.15733396582853557,
+      "regime": "unsteady",
+      "strouhal_chord": 0.9966777408637872,
+      "wall_s": 1350.2
+    }
+  }
+}

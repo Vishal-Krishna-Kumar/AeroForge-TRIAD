@@ -1,0 +1,114 @@
+{
+ "design": "full 40x15",
+ "note": "descriptive, not pre-registered",
+ "alphas": {
+  "0.1": {
+   "gaussian": {
+    "whole_run": 0.0,
+    "whole_run_CI95": [
+     0.0,
+     0.1684334709830853
+    ],
+    "per_iterate": 0.39666666666666667,
+    "median_threshold": 1.2345017464899495,
+    "n_test_runs": 20
+   },
+   "bonferroni": {
+    "whole_run": 1.0,
+    "whole_run_CI95": [
+     0.8315665290169146,
+     1.0
+    ],
+    "per_iterate": 1.0,
+    "median_threshold": 9.413084896622347,
+    "n_test_runs": 20
+   },
+   "weighted": {
+    "whole_run": 0.25,
+    "whole_run_CI95": [
+     0.08657146910143461,
+     0.49104587170795744
+    ],
+    "per_iterate": 0.72,
+    "median_threshold": 3.0028419518498204,
+    "n_test_runs": 20
+   },
+   "aci_gamma0.01": {
+    "whole_run": 0.2,
+    "whole_run_CI95": [
+     0.05733399705003277,
+     0.4366140029966683
+    ],
+    "per_iterate": 0.6933333333333334,
+    "median_threshold": 2.4058181360603577,
+    "n_test_runs": 20,
+    "note": "needs a CFD gradient after every step"
+   },
+   "aci_gamma0.05": {
+    "whole_run": 0.1,
+    "whole_run_CI95": [
+     0.012348527170294808,
+     0.31698271401908235
+    ],
+    "per_iterate": 0.8366666666666666,
+    "median_threshold": 2.4058181360603577,
+    "n_test_runs": 20,
+    "note": "needs a CFD gradient after every step"
+   }
+  },
+  "0.2": {
+   "gaussian": {
+    "whole_run": 0.0,
+    "whole_run_CI95": [
+     0.0,
+     0.1684334709830853
+    ],
+    "per_iterate": 0.3466666666666666,
+    "median_threshold": 1.1430323038117345,
+    "n_test_runs": 20
+   },
+   "bonferroni": {
+    "whole_run": 0.7,
+    "whole_run_CI95": [
+     0.45721081772371086,
+     0.8810684095942722
+    ],
+    "per_iterate": 0.8866666666666667,
+    "median_threshold": 5.03114033942274,
+    "n_test_runs": 20
+   },
+   "weighted": {
+    "whole_run": 0.1,
+    "whole_run_CI95": [
+     0.012348527170294808,
+     0.31698271401908235
+    ],
+    "per_iterate": 0.5900000000000001,
+    "median_threshold": 2.04842103206713,
+    "n_test_runs": 20
+   },
+   "aci_gamma0.01": {
+    "whole_run": 0.0,
+    "whole_run_CI95": [
+     0.0,
+     0.1684334709830853
+    ],
+    "per_iterate": 0.5466666666666667,
+    "median_threshold": 1.8080111573928872,
+    "n_test_runs": 20,
+    "note": "needs a CFD gradient after every step"
+   },
+   "aci_gamma0.05": {
+    "whole_run": 0.0,
+    "whole_run_CI95": [
+     0.0,
+     0.1684334709830853
+    ],
+    "per_iterate": 0.6866666666666668,
+    "median_threshold": 1.8080111573928872,
+    "n_test_runs": 20,
+    "note": "needs a CFD gradient after every step"
+   }
+  }
+ }
+}
