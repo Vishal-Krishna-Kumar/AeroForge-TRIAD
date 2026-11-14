@@ -31,6 +31,21 @@ Everything negative is reported. Hypotheses, decision rules and splits were froz
 
 ![Whole-run coverage](figures/fig_wholerun_coverage_v3.png)
 
+## Media
+
+**Training the transonic surrogate, frame by frame** (`media/video_v3_frames/`). These are the key frames of the V3 training video: an FNO ensemble learning transonic flow over airfoils at M = 0.70, made from the logged training runs.
+
+| | |
+|---|---|
+| ![CFD ground truth](media/video_v3_frames/02_cfd.png) | ![Watching the network learn](media/video_v3_frames/06_train_end.png) |
+| *The CFD ground truth (SU2, compressible Euler, M = 0.70)* | *Network vs CFD on four shapes it never trained on* |
+| ![Design direction vs adjoint CFD](media/video_v3_frames/08_gradients.png) | ![Results on 64 test shapes](media/video_v3_frames/09_results.png) |
+| *The network's design gradient vs the exact adjoint gradient* | *Results on 64 held-out shapes: gradient error is about 10x the value error* |
+
+Frames 06 to 08 use the 48 validation shapes or 16 calibration shapes and one network; frame 09 and the paper's tables use the 64 test shapes and the 5-network ensemble.
+
+**How the run-level certificate works** (`media/runlevel_certificate_toy.mp4`, 14 s). A 2-D toy illustration, not CFD and not a result of the paper: calibrating on the worst error of each run covers every step of a new run, while i.i.d. calibration misses steps along the path.
+
 ## What this work builds on
 
 - **Fourier neural operators** (Li et al., *Fourier neural operator for parametric partial differential equations*, ICLR 2021): the surrogate family studied here.
