@@ -85,8 +85,12 @@ python analysis/run_v3_baselines.py
 ## Notes on the record
 
 - **The code** comes from the anonymised review supplement, with the project name restored. Path defaults point to the repository root (`AF_ROOT`). The sha-256 values in the experiment log refer to the original working files.
-- **"Mohammad".** Protocols v2 to v3 and the experiment log sometimes refer to the author as "Mohammad". That was a naming error by the AI assistant that kept the log. Every such reference means the author, Vishal Krishna Kumar. The records are left unedited because the log is hash-chained.
+- **"Mohammad".** Protocols v2 to v3 and the experiment log refer to "Mohammad" when recording approvals and hands-on steps during the runs. These are Mohammad R. Nasser, who helped run the experiments (see Acknowledgements). The records are left unedited because the log is hash-chained.
 - **AI assistance.** The author conceived and directed this study, approved all design, pre-registration and budget decisions, and reviewed every protocol, analysis and section of the manuscript. Claude (Anthropic) was used as an AI research assistant to help implement the analysis code and computational workflows, to draft and edit text, and to check numbers and citations against their sources. The author takes full responsibility for the content.
+
+## Acknowledgements
+
+Thanks to Mohammad R. Nasser for helping run the CFD and cloud experiments, and to Rishi Ramesh for reviewing the work and discussing ideas.
 
 ## Citation
 
